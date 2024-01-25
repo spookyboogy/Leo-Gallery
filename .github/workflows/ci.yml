@@ -13,6 +13,12 @@ jobs:
 
       - run: make
 
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Bundle and Minify
+        run: npm run build # This assumes you have a "build" script in your package.json that handles bundling and minifying
+
       - if: ${{ success() && github.ref == 'refs/heads/main' }}
         id: deploy
         continue-on-error: true
