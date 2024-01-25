@@ -1,39 +1,32 @@
-// leoGallery.js
-function pushImagesToArray(imageDirectory) {
-    var imageArray = [];
-
-    // Fetch all .jpg files from the directory
+// Wait for the document to be ready
+$(document).ready(function() {
+    // Get the "leos-gallery" container
+    var galleryContainer = $('#leos-gallery');
+    console.log('dom ready')
+    // Dynamically fetch images from the "images" directory
     $.ajax({
-        url: imageDirectory,
+        url: 'images/', // Adjust the path accordingly
         success: function(data) {
-            // console.log(`\n\ndata: \n${data}`);
-            $(data).find('a[href$=".jpg"]').each(function() {
-                var imagePath = imageDirectory + '/' + $(this).attr('href');
+            console.log(data)
+            var imageArray = []
+            // Find all image files and create <a> tags for each
+            $(data).find("a:contains('.jpg')").each(function() {
+
+                var imageUrl = $(this).attr('href');
                 imageArray.push({
-                    src: imagePath,
-                    thumb: imagePath,
+                    src: imageUrl,
+                    thumb: imageUrl,
                     subHtml: 'Image Caption'
                 });
+
+                // Create <a> tag with image
+                var imageTag = $('<a href="' + imageUrl + '"><img src="' + imageUrl + '" alt="Image"></a>');
+                
+                // Append the image tag to the gallery container
+                galleryContainer.append(imageTag);
+            
             });
-            console.log(`imageArray : ${imageArray}`);
+        console.log(imageArray);
         }
     });
-
-    // Return an empty array initially (it will be populated after the Ajax request completes)
-    return imageArray;
-}
-
-function initializeLightGallery() {
-    // Initialize LightGallery with the dynamically generated dynamicEl array
-    var initialImageArray = pushImagesToArray('images');
-    $('#leos-gallery').lightGallery({
-        dynamic: true,
-        thumbnail: true,
-        selector: 'a',
-        mode: 'lg-fade',
-        dynamicEl: initialImageArray
-    });
-}
-
-
-document.addEventListener('DOMContentLoaded', initializeLightGallery);
+});
