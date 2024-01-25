@@ -1,0 +1,1 @@
+A little js/jQuery project which uses LightGallery to display a gallery of cat photos.
