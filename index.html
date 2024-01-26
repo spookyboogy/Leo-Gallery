@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="img-src * data: blob:">
+
     <title>Leo's Gallery</title>
     <!-- Include jQuery from node_modules -->
     <link type="text/css" rel="stylesheet" href="node_modules/lightgallery/css/lightgallery-bundle.css" />
@@ -12,12 +14,12 @@
     <div id="leos-gallery">
         <!-- Gallery items will be dynamically added here -->
 
-        <!-- <a href="images/Leo_27.jpg">
+        <a href="images/Leo_27.jpg">
             <img src="images/Leo_27.jpg" alt="Image 1">
         </a>
         <a href="images/Leo_28.jpg">
             <img src="images/Leo_28.jpg" alt="Image 2">
-        </a> -->
+        </a>
         <!-- Add more images as needed -->
 
         <!-- You can also use server-side scripting to dynamically generate gallery items -->
