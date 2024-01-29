@@ -2,4 +2,27 @@ body {
     background-color: #000000;
 }
 
+/* set image border to dark reader color  */
+.lg-outer .lg-thumb-item {
+    /* border: 2px solid #9999999c; */
+    border-color: rgb(46, 47, 45);
+}
+
 /* set scrollbar colors to dark as well */
+
+::-webkit-scrollbar {
+    background-color: #1a1b1a;
+    color: #bfb29c;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #9999999c;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #999999; /* Change color on hover if desired */
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #101110;
+}
