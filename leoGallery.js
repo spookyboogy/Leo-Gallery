@@ -1,10 +1,12 @@
 import '/node_modules/lightgallery/lightgallery.umd.js';
+import '/node_modules/lightgallery/plugins/thumbnail/lg-thumbnail.umd.js';
+import '/node_modules/lightgallery/plugins/zoom/lg-zoom.umd.js';
 
+const $galleryContainer = $('#leos-gallery');
 
 // Wait for the document to be ready
-$(document).ready(function () {
-  // Get the "leos-gallery" container
-  var $galleryContainer = $('#leos-gallery');
+// $(document).ready(function () {
+$(function() {
   console.log('dom ready');
 
   // Hardcoding relative image URLs based on the pattern Leo_xx.jpg 
@@ -36,25 +38,49 @@ $(document).ready(function () {
   });
 });
 
+
+// Chrome gives the following warning
+// leoGallery.js:32 (calling lightGallery) [Violation] Added non-passive 
+// event listener to a scroll-blocking 'touchstart' event. Consider marking
+// event handler as 'passive' to make the page more responsive. 
+// See https://www.chromestatus.com/feature/5745543795965952
+//
+// Below is the solution when you have control over the Eventlisteners, but,
+// because LightGallery is doing all the event handling, implementing this would mean
+// rewriting/adjusting a ton of LightGallery code.
+//  
+// Test via a getter in the options object to see if the passive property is accessed
+// var supportsPassive = false;
+// try {
+//   var opts = Object.defineProperty({}, 'passive', {
+//     get: function() {
+//       supportsPassive = true;
+//     }
+//   });
+//   window.addEventListener("testPassive", null, opts);
+//   window.removeEventListener("testPassive", null, opts);
+// } catch (e) {}
+
+// // Use our detect's results. passive applied if supported, capture will be false either way.
+// $galleryContainer[0].addEventListener('touchstart', function() {}, supportsPassive ? { passive: true } : false);
+
+
 // // For when using a .json to keep a list of images in /images
+//
 // import images from './images.json'
 // images.forEach(function(image) {
 //     var imageUrl = image.url;
-
+//
 //     imageArray.push({
 //         src: imageUrl,
 //         thumb: imageUrl,
 //         subHtml: 'Image Caption'
 //     });
-
 //     // Create <a> tag with image
 //     var imageTag = $('<a href="' + imageUrl + '"><img src="' + imageUrl + '" alt="Image"></a>');
 //     // Append the image tag to the gallery container
 //     $galleryContainer.append(imageTag);
 // });
-
-
-
 
 // // Not using $.ajax because it conflicts with neocities CSP when fetching images (response type is blob, only img-src * data: allowed)
 
@@ -73,22 +99,18 @@ $(document).ready(function () {
 //             var imageArray = []
 //             // Find all image files and create <a> tags for each
 //             $(data).find("a:contains('.jpg')").each(function() {
-
 //                 var imageUrl = $(this).attr('href');
 //                 imageArray.push({
 //                     src: imageUrl,
 //                     thumb: imageUrl,
 //                     subHtml: 'Image Caption'
 //                 });
-
 //                 // Create <a> tag with image
 //                 var imageTag = $('<a href="' + imageUrl + '"><img src="' + imageUrl + '" alt="Image"></a>');
 //                 // Append the image tag to the gallery container
 //                 $galleryContainer.append(imageTag);
-                
 //             });
 //             // console.log($galleryContainer[0]);
-            
 //             // Initialize LightGallery with the dynamically created gallery items
 //             lightGallery($galleryContainer[0], {
 //                 // dynamic: true,
