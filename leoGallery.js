@@ -8,15 +8,7 @@ import '/node_modules/justifiedGallery/dist/js/jquery.justifiedGallery.min.js';
 
 const $galleryContainer = $('#leos-gallery');
 
-// $galleryContainer.justifiedGallery({
-//     captions: false,
-//     lastRow: "hide",
-//     rowHeight: 180,
-//     margins: 5
-//   });
-
 // Wait for the document to be ready
-// $(document).ready(function () {
 $(function() {
   console.log('dom ready');
   
@@ -39,7 +31,6 @@ $(function() {
     // Append the image tag to the gallery container
     $galleryContainer.append(imageTag);
   }
-
   
   // Initialize LightGallery with the dynamically created gallery items
   lightGallery($galleryContainer[0], {
