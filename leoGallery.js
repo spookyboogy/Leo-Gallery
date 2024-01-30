@@ -55,8 +55,8 @@ $(function() {
     lastRow: 'center',
     maxRowsCount: 0,
     maxRowHeight: 200,
-    border: 2,
     rowHeight: 200,
+    border: 2,
     margins: 4
   }); 
 });
