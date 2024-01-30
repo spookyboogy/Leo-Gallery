@@ -1,5 +1,8 @@
 import '/node_modules/lightgallery/lightgallery.umd.js';
 import '/node_modules/lightgallery/plugins/thumbnail/lg-thumbnail.umd.js';
+import '/node_modules/lightgallery/plugins/fullscreen/lg-fullscreen.umd.js';
+import '/node_modules/lightgallery/plugins/autoplay/lg-autoplay.umd.js';
+import '/node_modules/lightgallery/plugins/rotate/lg-rotate.umd.js';
 import '/node_modules/lightgallery/plugins/zoom/lg-zoom.umd.js';
 import '/node_modules/justifiedGallery/dist/js/jquery.justifiedGallery.min.js';
 
@@ -41,7 +44,7 @@ $(function() {
   // Initialize LightGallery with the dynamically created gallery items
   lightGallery($galleryContainer[0], {
     thumbnail: true,
-    plugins: [lgZoom, lgThumbnail],
+    plugins: [lgZoom, lgThumbnail, lgAutoplay, lgFullscreen, lgRotate],
     licenseKey: 'your_license_key',
     speed: 500,
     // dynamic: true,
