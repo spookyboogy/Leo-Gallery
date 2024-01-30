@@ -1,5 +1,6 @@
 body {
     background-color: #000000;
+    /* padding: 40px; */
 }
 
 /* set image border to dark reader color  */
@@ -26,3 +27,15 @@ body {
 ::-webkit-scrollbar-corner {
     background-color: #101110;
 }
+
+/* .justified-gallery {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+} */
+
+/* #leos-gallery {
+    position: absolute;
+    overflow: hidden;
+    width: 100%
+} */
