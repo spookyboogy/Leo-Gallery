@@ -57,7 +57,7 @@ $(function() {
     maxRowHeight: 200,
     border: 2,
     rowHeight: 200,
-    margins: 5
+    margins: 4
   }); 
 });
 
