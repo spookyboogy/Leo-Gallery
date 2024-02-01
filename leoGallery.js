@@ -1,6 +1,6 @@
 import '/node_modules/lightgallery/lightgallery.umd.js';
-import '/node_modules/lightgallery/plugins/thumbnail/lg-thumbnail.umd.js';
 import '/node_modules/lightgallery/plugins/fullscreen/lg-fullscreen.umd.js';
+import '/node_modules/lightgallery/plugins/thumbnail/lg-thumbnail.umd.js';
 import '/node_modules/lightgallery/plugins/autoplay/lg-autoplay.umd.js';
 import '/node_modules/lightgallery/plugins/rotate/lg-rotate.umd.js';
 import '/node_modules/lightgallery/plugins/zoom/lg-zoom.umd.js';
