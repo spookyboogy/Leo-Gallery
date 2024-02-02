@@ -145,8 +145,8 @@ print(f'images.json created at: {json_output_path}')
 # # there is however no way (to my knowledge) to write non-exif metadata using Image.save(out.txt, exif=exif_data)
 # 
 # with Image.open(input_image_path) as img:
-#     img.info
-#     for i in img.metadata['photoshop']: print(i)
+#     metadata = img.info
+#     for i in metadata['photoshop']: print(i)
 #     print(img.app['APP1'])
 #
 # # The other method, also unwriteable afaik 
