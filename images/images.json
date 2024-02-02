@@ -1,0 +1,732 @@
+{
+  "images": [
+    {
+      "filename": "Leo_36.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_36_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2012:03:10 00:00:00",
+        "ImageDescription": "12/3/2010"
+      }
+    },
+    {
+      "filename": "Leo_73.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_73_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:09:08 00:00:00",
+        "ImageDescription": "9/8/2014"
+      }
+    },
+    {
+      "filename": "Leo_56.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_56_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:08:17 00:00:00",
+        "ImageDescription": "8/17/2008"
+      }
+    },
+    {
+      "filename": "Leo_67.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_67_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:06:19 00:00:00",
+        "ImageDescription": "6/19/2014"
+      }
+    },
+    {
+      "filename": "Leo_19.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_19_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2009:06:23 00:00:00",
+        "ImageDescription": "6/23/2009"
+      }
+    },
+    {
+      "filename": "Leo_34.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_34_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:07:29 00:00:00",
+        "ImageDescription": "7/29/2008"
+      }
+    },
+    {
+      "filename": "Leo_49.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_49_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:07:05 00:00:00",
+        "ImageDescription": "7/5/2008"
+      }
+    },
+    {
+      "filename": "Leo_77.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_77_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2013:04:05 00:00:00",
+        "ImageDescription": "4/5/2013"
+      }
+    },
+    {
+      "filename": "Leo_38.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_38_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2011:01:16 00:00:00",
+        "ImageDescription": "1/16/2011"
+      }
+    },
+    {
+      "filename": "Leo_90.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_90_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2009:04:17 00:00:00",
+        "ImageDescription": "4/17/2009"
+      }
+    },
+    {
+      "filename": "Leo_89.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_89_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:02:24 00:00:00",
+        "ImageDescription": "2/24/2008"
+      }
+    },
+    {
+      "filename": "Leo_72.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_72_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2012:12:25 00:00:00",
+        "ImageDescription": "12/25/2012"
+      }
+    },
+    {
+      "filename": "Leo_25.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_25_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2009:05:30 00:00:00",
+        "ImageDescription": "5/30/2009"
+      }
+    },
+    {
+      "filename": "Leo_45.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_45_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:07:29 00:00:00",
+        "ImageDescription": "7/29/2008"
+      }
+    },
+    {
+      "filename": "Leo_17.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_17_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:05:15 00:00:00",
+        "ImageDescription": "5/15/2008"
+      }
+    },
+    {
+      "filename": "Leo_92.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_92_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2012:12:09 00:00:00",
+        "ImageDescription": "12/9/2012"
+      }
+    },
+    {
+      "filename": "Leo_54.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_54_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:08:17 00:00:00",
+        "ImageDescription": "8/17/2008"
+      }
+    },
+    {
+      "filename": "Leo_29.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_29_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:07:04 00:00:00",
+        "ImageDescription": "7/4/2008"
+      }
+    },
+    {
+      "filename": "Leo_09.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_09_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:09:21 00:00:00",
+        "ImageDescription": "9/21/2008"
+      }
+    },
+    {
+      "filename": "Leo_12.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_12_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2009:01:04 00:00:00",
+        "ImageDescription": "1/4/2009"
+      }
+    },
+    {
+      "filename": "Leo_80.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_80_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2012:11:28 00:00:00",
+        "ImageDescription": "11/28/2012"
+      }
+    },
+    {
+      "filename": "Leo_40.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_40_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2011:03:25 00:00:00",
+        "ImageDescription": "3/25/2011"
+      }
+    },
+    {
+      "filename": "Leo_79.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_79_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2012:12:02 00:00:00",
+        "ImageDescription": "12/2/2012"
+      }
+    },
+    {
+      "filename": "Leo_53.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_53_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:06:02 00:00:00",
+        "ImageDescription": "6/2/2008"
+      }
+    },
+    {
+      "filename": "Leo_31.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_31_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2009:10:10 00:00:00",
+        "ImageDescription": "10/10/2009"
+      }
+    },
+    {
+      "filename": "Leo_39.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_39_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2011:03:19 00:00:00",
+        "ImageDescription": "3/19/2011"
+      }
+    },
+    {
+      "filename": "Leo_22.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_22_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2009:03:15 00:00:00",
+        "ImageDescription": "3/15/2009"
+      }
+    },
+    {
+      "filename": "Leo_82.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_82_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2013:01:06 00:00:00",
+        "ImageDescription": "1/6/2013"
+      }
+    },
+    {
+      "filename": "Leo_27.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_27_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2009:07:18 00:00:00",
+        "ImageDescription": "7/18/2009"
+      }
+    },
+    {
+      "filename": "Leo_87.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_87_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2006:12:10 00:00:00",
+        "ImageDescription": "12/10/2006"
+      }
+    },
+    {
+      "filename": "Leo_04.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_04_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:08:31 00:00:00",
+        "ImageDescription": "8/31/2008"
+      }
+    },
+    {
+      "filename": "Leo_51.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_51_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:07:06 00:00:00",
+        "ImageDescription": "7/6/2008"
+      }
+    },
+    {
+      "filename": "Leo_10.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_10_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:11:28 00:00:00",
+        "ImageDescription": "11/28/2008"
+      }
+    },
+    {
+      "filename": "Leo_33.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_33_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2010:01:17 00:00:00",
+        "ImageDescription": "1/17/2010"
+      }
+    },
+    {
+      "filename": "Leo_70.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_70_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "1992:03:09 00:00:00",
+        "ImageDescription": "3/9/1992"
+      }
+    },
+    {
+      "filename": "Leo_06.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_06_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:05:15 00:00:00",
+        "ImageDescription": "5/15/2008"
+      }
+    },
+    {
+      "filename": "Leo_81.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_81_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "1992:03:09 00:00:00",
+        "ImageDescription": "3/9/1992"
+      }
+    },
+    {
+      "filename": "Leo_18.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_18_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2009:02:21 00:00:00",
+        "ImageDescription": "2/21/2009"
+      }
+    },
+    {
+      "filename": "Leo_88.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_88_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:03:14 00:00:00",
+        "ImageDescription": "3/14/2008"
+      }
+    },
+    {
+      "filename": "Leo_74.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_74_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2012:11:18 00:00:00",
+        "ImageDescription": "11/18/2012"
+      }
+    },
+    {
+      "filename": "Leo_57.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_57_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:08:30 00:00:00",
+        "ImageDescription": "8/30/2008"
+      }
+    },
+    {
+      "filename": "Leo_30.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_30_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2009:09:06 00:00:00",
+        "ImageDescription": "9/6/2009"
+      }
+    },
+    {
+      "filename": "Leo_35.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_35_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2010:01:18 00:00:00",
+        "ImageDescription": "1/18/2010"
+      }
+    },
+    {
+      "filename": "Leo_14.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_14_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2009:01:03 00:00:00",
+        "ImageDescription": "1/3/2009"
+      }
+    },
+    {
+      "filename": "Leo_11.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_11_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:11:29 00:00:00",
+        "ImageDescription": "11/29/2008"
+      }
+    },
+    {
+      "filename": "Leo_46.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_46_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2013:03:17 00:00:00",
+        "ImageDescription": "3/17/2013"
+      }
+    },
+    {
+      "filename": "Leo_16.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_16_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2009:01:24 00:00:00",
+        "ImageDescription": "1/24/2009"
+      }
+    },
+    {
+      "filename": "Leo_75.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_75_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2012:11:26 00:00:00",
+        "ImageDescription": "11/26/2012"
+      }
+    },
+    {
+      "filename": "Leo_24.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_24_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2009:05:29 00:00:00",
+        "ImageDescription": "5/29/2009"
+      }
+    },
+    {
+      "filename": "Leo_07.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_07_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:08:31 00:00:00",
+        "ImageDescription": "8/31/2008"
+      }
+    },
+    {
+      "filename": "Leo_41.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_41_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:07:05 00:00:00",
+        "ImageDescription": "7/5/2008"
+      }
+    },
+    {
+      "filename": "Leo_62.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_62_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:01:11 00:00:00",
+        "ImageDescription": "1/11/2014"
+      }
+    },
+    {
+      "filename": "Leo_83.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_83_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2013:07:07 00:00:00",
+        "ImageDescription": "7/7/2013"
+      }
+    },
+    {
+      "filename": "Leo_43.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_43_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2013:05:20 00:00:00",
+        "ImageDescription": "5/20/2013"
+      }
+    },
+    {
+      "filename": "Leo_21.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_21_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:08:17 00:00:00",
+        "ImageDescription": "8/17/2008"
+      }
+    },
+    {
+      "filename": "Leo_63.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_63_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:06:19 00:00:00",
+        "ImageDescription": "6/19/2014"
+      }
+    },
+    {
+      "filename": "Leo_44.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_44_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2013:04:21 00:00:00",
+        "ImageDescription": "4/21/2013"
+      }
+    },
+    {
+      "filename": "Leo_48.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_48_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2009:10:10 00:00:00",
+        "ImageDescription": "10/10/2009"
+      }
+    },
+    {
+      "filename": "Leo_78.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_78_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2013:03:17 00:00:00",
+        "ImageDescription": "3/17/2013"
+      }
+    },
+    {
+      "filename": "Leo_66.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_66_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:06:19 00:00:00",
+        "ImageDescription": "6/19/2014"
+      }
+    },
+    {
+      "filename": "Leo_08.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_08_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:08:30 00:00:00",
+        "ImageDescription": "8/30/2008"
+      }
+    },
+    {
+      "filename": "Leo_68.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_68_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:12:07 00:00:00",
+        "ImageDescription": "12/7/2014"
+      }
+    },
+    {
+      "filename": "Leo_42.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_42_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2012:02:19 00:00:00",
+        "ImageDescription": "2/19/2012"
+      }
+    },
+    {
+      "filename": "Leo_32.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_32_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2009:10:24 00:00:00",
+        "ImageDescription": "10/24/2009"
+      }
+    },
+    {
+      "filename": "Leo_15.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_15_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2009:01:12 00:00:00",
+        "ImageDescription": "1/12/2009"
+      }
+    },
+    {
+      "filename": "Leo_93.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_93_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2013:11:16 00:00:00",
+        "ImageDescription": "11/16/2013"
+      }
+    },
+    {
+      "filename": "Leo_86.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_86_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2012:11:13 00:00:00",
+        "ImageDescription": "11/13/2012"
+      }
+    },
+    {
+      "filename": "Leo_64.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_64_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:06:19 00:00:00",
+        "ImageDescription": "6/19/2014"
+      }
+    },
+    {
+      "filename": "Leo_65.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_65_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:06:19 00:00:00",
+        "ImageDescription": "6/19/2014"
+      }
+    },
+    {
+      "filename": "Leo_71.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_71_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:01:13 00:00:00",
+        "ImageDescription": "1/13/2014"
+      }
+    },
+    {
+      "filename": "Leo_91.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_91_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2009:04:14 00:00:00",
+        "ImageDescription": "4/14/2009"
+      }
+    },
+    {
+      "filename": "Leo_69.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_69_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:10:24 00:00:00",
+        "ImageDescription": "10/24/2014"
+      }
+    },
+    {
+      "filename": "Leo_85.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_85_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2013:04:27 00:00:00",
+        "ImageDescription": "4/27/2013"
+      }
+    },
+    {
+      "filename": "Leo_58.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_58_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:08:30 00:00:00",
+        "ImageDescription": "8/30/2008"
+      }
+    },
+    {
+      "filename": "Leo_37.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_37_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2011:01:16 00:00:00",
+        "ImageDescription": "1/16/2011"
+      }
+    },
+    {
+      "filename": "Leo_03.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_03_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:08:31 00:00:00",
+        "ImageDescription": "8/31/2008"
+      }
+    },
+    {
+      "filename": "Leo_20.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_20_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2009:06:23 00:00:00",
+        "ImageDescription": "6/23/2009"
+      }
+    },
+    {
+      "filename": "Leo_26.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_26_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2009:05:25 00:00:00",
+        "ImageDescription": "5/25/2009"
+      }
+    },
+    {
+      "filename": "Leo_76.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_76_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2013:01:10 00:00:00",
+        "ImageDescription": "1/10/2013"
+      }
+    },
+    {
+      "filename": "Leo_84.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_84_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2013:12:09 00:00:00",
+        "ImageDescription": "12/9/2013"
+      }
+    },
+    {
+      "filename": "Leo_50.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_50_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:07:05 00:00:00",
+        "ImageDescription": "7/5/2008"
+      }
+    },
+    {
+      "filename": "Leo_28.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_28_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2009:07:18 00:00:00",
+        "ImageDescription": "7/18/2009"
+      }
+    },
+    {
+      "filename": "Leo_55.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_55_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:08:17 00:00:00",
+        "ImageDescription": "8/17/2008"
+      }
+    },
+    {
+      "filename": "Leo_13.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_13_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2009:01:12 00:00:00",
+        "ImageDescription": "1/12/2009"
+      }
+    },
+    {
+      "filename": "Leo_60.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_60_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2013:11:10 00:00:00",
+        "ImageDescription": "11/10/2013"
+      }
+    },
+    {
+      "filename": "Leo_61.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_61_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2013:12:31 00:00:00",
+        "ImageDescription": "12/31/2013"
+      }
+    },
+    {
+      "filename": "Leo_05.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_05_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:08:31 00:00:00",
+        "ImageDescription": "8/31/2008"
+      }
+    },
+    {
+      "filename": "Leo_23.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_23_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:05:15 00:00:00",
+        "ImageDescription": "5/15/2008"
+      }
+    },
+    {
+      "filename": "Leo_47.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_47_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:12:06 00:00:00",
+        "ImageDescription": "12/6/2014"
+      }
+    },
+    {
+      "filename": "Leo_59.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_59_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "1992:03:09 00:00:00",
+        "ImageDescription": "3/9/1992"
+      }
+    },
+    {
+      "filename": "Leo_52.jpg",
+      "thumbnail": "./images/.thumbnails/Leo_52_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2008:07:12 00:00:00",
+        "ImageDescription": "7/12/2008"
+      }
+    }
+  ]
+}
