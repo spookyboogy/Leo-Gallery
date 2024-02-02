@@ -7,10 +7,7 @@ import '/node_modules/lightgallery/plugins/zoom/lg-zoom.umd.js';
 import '/node_modules/justifiedGallery/dist/js/jquery.justifiedGallery.min.js';
 import images from '/images/images.json' assert { type: 'json' };
 
-const $galleryContainer = $('#leos-gallery');
-let imageArray = images.images;
-
-// Custom compare function
+// Function for comparing images by date
 function compareByDateTimeOriginal(a, b) {
   const parseDate = (dateString) => {
     if (!dateString) {
@@ -46,28 +43,32 @@ function compareByDateTimeOriginal(a, b) {
   return 0;
 }
 
-imageArray.sort(compareByDateTimeOriginal);
-// console.log(imageArray);
-
-for (var i = 0; i < imageArray.length; i++) {
-  var image = imageArray[i];
-  var imageUrl = `/images/${image.filename}`;
-  var thumbnailUrl = image.thumbnail;
-  var dateTimeOriginal = image.exif.DateTimeOriginal;
-  var imageDescription = image.exif.ImageDescription;
-  // Create <a> tag with image
-  var imageTag = $(
-    '<a href="' + imageUrl + '">' + 
-      '<img src="' + thumbnailUrl + '" alt="' + imageDescription + '">' +
-    '</a>');
-  // Append the image tag to the gallery container
-  $galleryContainer.append(imageTag);
-};
+function createImageTag(image) {
+  const $imageTag = $('<a>', {
+    href: `/images/${image.filename}`,
+    html: $('<img>', {
+      src: image.thumbnail,
+      alt: image.exif.ImageDescription
+    })
+  });
+  return $imageTag;
+}
 
 // Wait for the document to be ready, initialize LightGallery and JustifiedGallery
-$(function() {
-  console.log('dom ready');
+function initializeGallery() {
+  // console.log('DOM is ready');
   
+  const $galleryContainer = $('#leos-gallery');
+  let imageArray = images.images;
+
+  imageArray.sort(compareByDateTimeOriginal);
+  // console.log(imageArray);
+
+  for (const image of imageArray) {
+    const $imageTag = createImageTag(image);
+    $galleryContainer.append($imageTag);
+  };
+
   // Initialize LightGallery with the dynamically created gallery items
   lightGallery($galleryContainer[0], {
     thumbnail: true,
@@ -76,6 +77,7 @@ $(function() {
     speed: 500,
     // ... other settings
   });
+
   // Initialize justifiedGallery 
   $galleryContainer.justifiedGallery({
     waitThumbnailsLoad:	true,
@@ -87,7 +89,9 @@ $(function() {
     border: 2,
     margins: 4
   }); 
-});
+}
+
+$(initializeGallery);
 
 // Chrome gives the following warning
 // leoGallery.js:32 (calling lightGallery) [Violation] Added non-passive 
