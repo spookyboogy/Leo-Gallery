@@ -1,9 +1,12 @@
-from PIL import Image, ExifTags as tags
+from PIL import Image
 from datetime import datetime
+import json
 import os
+
 
 input_path = './images/'
 output_path = './images/.thumbnails/'
+json_output_path = './images/images.json'
 
 datetime_original_tag_id = 0x9003  # exif Tag ID for DateTimeOriginal, decimal: 36867
 image_description_tag_id = 0x010e  # exif Tag ID for ImageDescription, decimal: 270
@@ -100,6 +103,42 @@ for file_name in os.listdir(input_path):
                         print(f'\t\ttag : {tag}:\n\t\t\t Not found')
         print('_' * 20 )
         
+# Create a list to store image entries to ./images/images.json
+image_entries = []
+
+for file_name in os.listdir(input_path):
+    if file_name.lower().endswith('.jpg'):
+        input_image_path = os.path.join(input_path, file_name)
+        base_name, extension = os.path.splitext(file_name)
+        output_thumbnail_name = f"{base_name}_small{extension}"
+        output_thumbnail_path = os.path.join(output_path, output_thumbnail_name)
+
+        with Image.open(input_image_path) as img:
+            # Extract EXIF data
+            exif_data = img.getexif() or {}
+            datetime_original = exif_data.get(datetime_original_tag_id)
+            image_description = exif_data.get(image_description_tag_id)
+
+        # Create an image entry dictionary
+        image_entry = {
+            "filename": file_name,
+            "thumbnail": output_thumbnail_path,
+            "exif": {
+                "DateTimeOriginal": datetime_original,
+                "ImageDescription": image_description
+            }
+        }
+        # Add the entry to the list
+        image_entries.append(image_entry)
+
+# Create a dictionary containing the list of image entries
+image_data = {"images": image_entries}
+
+# Save the dictionary as JSON
+with open(json_output_path, 'w') as json_file:
+    json.dump(image_data, json_file, indent=2)
+
+print(f'images.json created at: {json_output_path}')
 
 
 # # this is one way of viewing the GIMP keyword that I added manually with the format "Date_taken : '%M/%D/%Y'"
