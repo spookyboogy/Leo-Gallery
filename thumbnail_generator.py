@@ -11,7 +11,7 @@ image_description_tag_id = 0x010e  # exif Tag ID for ImageDescription, decimal: 
 if not os.path.exists(output_path):
     os.makedirs(output_path)
 
-for file_name in os.listdir(input_path)[:7]:
+for file_name in os.listdir(input_path):
     if file_name.lower().endswith('.jpg'):
         input_image_path = os.path.join(input_path, file_name)
         # Add suffix to the filename before the extension
