@@ -1,5 +1,5 @@
 body {
-    background-color: #000000;
+    background-color: #1a1b1a;
     /* padding: 40px; */
 }
 
@@ -28,14 +28,60 @@ body {
     background-color: #101110;
 }
 
+#tab-bar {
+    display: flex;
+    background-color: rgba(26, 27, 26, 0.5); 
+    border-radius: 10px;
+}
+
+.tabcontent {
+    /* display: none; */
+    /* padding: 100px 20px; */
+    height: 100%;
+}
+
+/* Style tab links */
+.tab {
+    flex: 1;
+    background-color: rgba(26, 27, 26, 0.25);    color: white;
+    float: left;
+    border: none;
+    outline: thick #32a1ce;
+    cursor: pointer;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 17px;
+    /* width: 50%; */
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    white-space: nowrap;
+  }
+  
+.tab:hover {
+    background-color: #777;
+}
+
+#gallery-container {
+    margin-top: 5px; 
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    font-size: 12px;
+
+    /* flex: 1; */
+    /* width: %; */
+    z-index: 1000; /* Adjust as needed */
+    background-color: rgba(26, 27, 26, 0.5); /* Adjust the transparency as needed */
+    transition: all 0.8s ease;
+    /* Add any other styling you want for the sticky tab bar */
+}
+
+
 /* .justified-gallery {
     width: 100%;
     position: relative;
     overflow: hidden;
 } */
 
-/* #leos-gallery {
-    position: absolute;
-    overflow: hidden;
-    width: 100%
-} */
