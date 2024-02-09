@@ -7,6 +7,11 @@ import '/node_modules/lightgallery/plugins/zoom/lg-zoom.umd.js';
 import '/node_modules/justifiedGallery/dist/js/jquery.justifiedGallery.min.js';
 import images from '/images/images.json' assert { type: 'json' };
 
+function openGallery(galleryName){
+  $('.gallery').hide()
+  $('#' + galleryName).show()
+}
+
 // Function for comparing images by date
 function compareByDateTimeOriginal(a, b) {
   const parseDate = (dateString) => {
@@ -45,7 +50,7 @@ function compareByDateTimeOriginal(a, b) {
 
 function createImageTag(image) {
   const $imageTag = $('<a>', {
-    href: `/images/${image.filename}`,
+    href: image.filePath,
     html: $('<img>', {
       src: image.thumbnail,
       alt: image.exif.ImageDescription
@@ -54,32 +59,82 @@ function createImageTag(image) {
   return $imageTag;
 }
 
+function createTabButton(imageDirectory){
+
+  let _text;
+  // hacky way of re-labeling the tab buttons
+  // without sacrificing generalizability 
+  if ( imageDirectory === 'phone-pictures' ) {
+    _text = 'Digital Albums';
+  } else if ( imageDirectory === 'purple-and-pink-albums' ) {
+    _text = 'Photo Albums';
+  } else {
+    _text = imageDirectory;
+  }
+
+  const $button = $('<button>', {
+    class: 'tab',
+    text: _text,
+    click: function(){openGallery(imageDirectory)}
+  });
+  return $button 
+}
+
+function createGalleryDiv(imageDirectory, isVisible = false){
+
+  const displayStyle = isVisible ? 'block' : 'none';
+  const $galleryDiv = $('<div>', {
+    id: imageDirectory,
+    class: 'gallery tabcontent',
+    style: `display: ${displayStyle};` // autohidden by default by .tabcontent css rule
+  });
+  return $galleryDiv;
+}
+
 // Wait for the document to be ready, initialize LightGallery and JustifiedGallery
 function initializeGallery() {
   // console.log('DOM is ready');
   
-  const $galleryContainer = $('#leos-gallery');
-  let imageArray = images.images;
+  const $galleryContainer = $('#gallery-container');
+  
+  let defaultAlbum = "purple-and-pink-albums";
+  defaultAlbum = defaultAlbum in images ? defaultAlbum : Object.keys(images)[0];
+  
+  console.log(`Unordered Directories: ${Object.keys(images)}`);
+  console.log(`Using default album : ${defaultAlbum}`)
 
-  imageArray.sort(compareByDateTimeOriginal);
-  // console.log(imageArray);
+  for (const [subdirectory, imageArr] of Object.entries(images)){
+    console.log(`Image directory: ${subdirectory}`);
+    console.log("\tImages :", imageArr);
 
-  for (const image of imageArray) {
-    const $imageTag = createImageTag(image);
-    $galleryContainer.append($imageTag);
-  };
+    const $button = createTabButton(subdirectory);
+    $('#tab-bar').append($button);
 
-  // Initialize LightGallery with the dynamically created gallery items
-  lightGallery($galleryContainer[0], {
-    thumbnail: true,
-    plugins: [lgZoom, lgThumbnail, lgAutoplay, lgFullscreen, lgRotate],
-    licenseKey: 'your_license_key',
-    speed: 500,
-    // ... other settings
-  });
+    const $galleryDiv = createGalleryDiv(subdirectory, (subdirectory === defaultAlbum));
+    $galleryContainer.append($galleryDiv);
 
-  // Initialize justifiedGallery 
-  $galleryContainer.justifiedGallery({
+    imageArr.sort(compareByDateTimeOriginal);
+
+    for (const image of imageArr) {
+      const $imageTag = createImageTag(image);
+      $galleryDiv.append($imageTag);
+    }
+
+    // Create a LightGallery container for current gallery
+    lightGallery($galleryDiv[0], {
+      thumbnail: true,
+      plugins: [lgZoom, lgThumbnail, lgAutoplay, lgFullscreen, lgRotate],
+      licenseKey: "0000-0000-000-0000",
+      speed: 500,
+      // animateThumb: true,
+      // zoomFromOrigin: true,  
+      // toggleThumb: true,
+      // ... other settings
+    });
+  }
+
+  // Create justifiedGalleries for each gallery
+  $('.gallery').justifiedGallery({
     waitThumbnailsLoad:	true,
     captions: false,
     lastRow: 'center',
@@ -89,6 +144,21 @@ function initializeGallery() {
     border: 2,
     margins: 4
   }); 
+
+  $(window).on("scroll", function(){
+
+    const tabBarHeight = $('#tab-bar').outerHeight(); // Get the height of the tab bar
+    var scrollTop = $(window).scrollTop();
+
+    if (scrollTop > tabBarHeight ) { // Adjust this value according to your needs
+        $('#tab-bar').addClass('sticky');
+    } else {
+        $('#tab-bar').removeClass('sticky');
+    }
+
+  });
+
+
 }
 
 $(initializeGallery);
