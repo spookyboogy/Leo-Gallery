@@ -1,8 +1,956 @@
 {
-  "images": [
+  "phone-pictures": [
+    {
+      "filename": "20140410_194616.jpg",
+      "filePath": "./images/phone-pictures/20140410_194616.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140410_194616_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:04:10 19:46:14",
+        "ImageDescription": "04/10/2014"
+      }
+    },
+    {
+      "filename": "20210823_144644.jpg",
+      "filePath": "./images/phone-pictures/20210823_144644.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20210823_144644_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:08:23 14:46:44",
+        "ImageDescription": "08/23/2021"
+      }
+    },
+    {
+      "filename": "20141123_191115.jpg",
+      "filePath": "./images/phone-pictures/20141123_191115.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20141123_191115_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:11:23 19:11:14",
+        "ImageDescription": "11/23/2014"
+      }
+    },
+    {
+      "filename": "20160125_155958.jpg",
+      "filePath": "./images/phone-pictures/20160125_155958.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20160125_155958_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2016:01:25 15:59:58",
+        "ImageDescription": "01/25/2016"
+      }
+    },
+    {
+      "filename": "20211111_113427.jpg",
+      "filePath": "./images/phone-pictures/20211111_113427.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20211111_113427_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:11:11 11:34:28",
+        "ImageDescription": "11/11/2021"
+      }
+    },
+    {
+      "filename": "20160117_122608.jpg",
+      "filePath": "./images/phone-pictures/20160117_122608.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20160117_122608_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2016:01:17 12:26:08",
+        "ImageDescription": "01/17/2016"
+      }
+    },
+    {
+      "filename": "20140927_153331.jpg",
+      "filePath": "./images/phone-pictures/20140927_153331.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140927_153331_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:09:27 15:33:31",
+        "ImageDescription": "09/27/2014"
+      }
+    },
+    {
+      "filename": "20211226_131907.jpg",
+      "filePath": "./images/phone-pictures/20211226_131907.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20211226_131907_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:12:26 13:19:08",
+        "ImageDescription": "12/26/2021"
+      }
+    },
+    {
+      "filename": "20150811_190449.jpg",
+      "filePath": "./images/phone-pictures/20150811_190449.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20150811_190449_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2015:08:11 19:04:49",
+        "ImageDescription": "08/11/2015"
+      }
+    },
+    {
+      "filename": "20140511_191104.jpg",
+      "filePath": "./images/phone-pictures/20140511_191104.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140511_191104_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:05:11 19:11:03",
+        "ImageDescription": "05/11/2014"
+      }
+    },
+    {
+      "filename": "20210823_123623.jpg",
+      "filePath": "./images/phone-pictures/20210823_123623.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20210823_123623_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:08:23 12:36:24",
+        "ImageDescription": "08/23/2021"
+      }
+    },
+    {
+      "filename": "20160208_135012.jpg",
+      "filePath": "./images/phone-pictures/20160208_135012.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20160208_135012_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2016:02:08 13:50:12",
+        "ImageDescription": "02/08/2016"
+      }
+    },
+    {
+      "filename": "20141019_203848.jpg",
+      "filePath": "./images/phone-pictures/20141019_203848.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20141019_203848_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:10:19 20:38:47",
+        "ImageDescription": "10/19/2014"
+      }
+    },
+    {
+      "filename": "20140905_141515.jpg",
+      "filePath": "./images/phone-pictures/20140905_141515.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140905_141515_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:09:05 14:15:15",
+        "ImageDescription": "09/05/2014"
+      }
+    },
+    {
+      "filename": "20180318_160935.jpg",
+      "filePath": "./images/phone-pictures/20180318_160935.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20180318_160935_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2018:03:18 16:09:34",
+        "ImageDescription": "03/18/2018"
+      }
+    },
+    {
+      "filename": "20210705_101721.jpg",
+      "filePath": "./images/phone-pictures/20210705_101721.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20210705_101721_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:07:05 10:17:22",
+        "ImageDescription": "07/05/2021"
+      }
+    },
+    {
+      "filename": "20211022_082004.jpg",
+      "filePath": "./images/phone-pictures/20211022_082004.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20211022_082004_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:10:22 08:20:05",
+        "ImageDescription": "10/22/2021"
+      }
+    },
+    {
+      "filename": "20140905_141509.jpg",
+      "filePath": "./images/phone-pictures/20140905_141509.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140905_141509_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:09:05 14:15:09",
+        "ImageDescription": "09/05/2014"
+      }
+    },
+    {
+      "filename": "20211021_145521.jpg",
+      "filePath": "./images/phone-pictures/20211021_145521.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20211021_145521_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:10:21 14:55:21",
+        "ImageDescription": "10/21/2021"
+      }
+    },
+    {
+      "filename": "20160701_091805.jpg",
+      "filePath": "./images/phone-pictures/20160701_091805.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20160701_091805_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2016:07:01 09:18:04",
+        "ImageDescription": "07/01/2016"
+      }
+    },
+    {
+      "filename": "20211213_080819.jpg",
+      "filePath": "./images/phone-pictures/20211213_080819.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20211213_080819_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:12:13 08:08:20",
+        "ImageDescription": "12/13/2021"
+      }
+    },
+    {
+      "filename": "20200221_205533.jpg",
+      "filePath": "./images/phone-pictures/20200221_205533.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20200221_205533_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2020:02:21 20:55:33",
+        "ImageDescription": "02/21/2020"
+      }
+    },
+    {
+      "filename": "20211021_144528.jpg",
+      "filePath": "./images/phone-pictures/20211021_144528.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20211021_144528_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:10:21 14:45:28",
+        "ImageDescription": "10/21/2021"
+      }
+    },
+    {
+      "filename": "20210804_163711.jpg",
+      "filePath": "./images/phone-pictures/20210804_163711.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20210804_163711_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:08:04 16:37:12",
+        "ImageDescription": "08/04/2021"
+      }
+    },
+    {
+      "filename": "20210817_122913.jpg",
+      "filePath": "./images/phone-pictures/20210817_122913.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20210817_122913_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:08:17 12:29:13",
+        "ImageDescription": "08/17/2021"
+      }
+    },
+    {
+      "filename": "20150725_233622.jpg",
+      "filePath": "./images/phone-pictures/20150725_233622.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20150725_233622_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2015:07:25 23:36:22",
+        "ImageDescription": "07/25/2015"
+      }
+    },
+    {
+      "filename": "20211021_144513.jpg",
+      "filePath": "./images/phone-pictures/20211021_144513.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20211021_144513_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:10:21 14:45:14",
+        "ImageDescription": "10/21/2021"
+      }
+    },
+    {
+      "filename": "20180428_103350.jpg",
+      "filePath": "./images/phone-pictures/20180428_103350.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20180428_103350_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2018:04:28 10:33:50",
+        "ImageDescription": "04/28/2018"
+      }
+    },
+    {
+      "filename": "20150809_212255.jpg",
+      "filePath": "./images/phone-pictures/20150809_212255.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20150809_212255_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2015:08:09 21:22:55",
+        "ImageDescription": "08/09/2015"
+      }
+    },
+    {
+      "filename": "20140927_141536.jpg",
+      "filePath": "./images/phone-pictures/20140927_141536.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140927_141536_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:09:27 14:15:36",
+        "ImageDescription": "09/27/2014"
+      }
+    },
+    {
+      "filename": "20210825_195216.jpg",
+      "filePath": "./images/phone-pictures/20210825_195216.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20210825_195216_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:08:25 19:52:16",
+        "ImageDescription": "08/25/2021"
+      }
+    },
+    {
+      "filename": "20140322_155530.jpg",
+      "filePath": "./images/phone-pictures/20140322_155530.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140322_155530_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:03:22 15:55:29",
+        "ImageDescription": "03/22/2014"
+      }
+    },
+    {
+      "filename": "20220227_140203.jpg",
+      "filePath": "./images/phone-pictures/20220227_140203.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20220227_140203_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2022:02:27 14:02:03",
+        "ImageDescription": "02/27/2022"
+      }
+    },
+    {
+      "filename": "20150203_084816.jpg",
+      "filePath": "./images/phone-pictures/20150203_084816.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20150203_084816_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2015:02:03 08:48:15",
+        "ImageDescription": "02/03/2015"
+      }
+    },
+    {
+      "filename": "20220108_224440.jpg",
+      "filePath": "./images/phone-pictures/20220108_224440.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20220108_224440_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2022:01:08 22:44:40",
+        "ImageDescription": "01/08/2022"
+      }
+    },
+    {
+      "filename": "20140601_184633.jpg",
+      "filePath": "./images/phone-pictures/20140601_184633.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140601_184633_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:06:01 18:46:33",
+        "ImageDescription": "06/01/2014"
+      }
+    },
+    {
+      "filename": "20180318_160947.jpg",
+      "filePath": "./images/phone-pictures/20180318_160947.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20180318_160947_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2018:03:18 16:09:47",
+        "ImageDescription": "03/18/2018"
+      }
+    },
+    {
+      "filename": "20150506_185622.jpg",
+      "filePath": "./images/phone-pictures/20150506_185622.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20150506_185622_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2015:05:06 18:56:22",
+        "ImageDescription": "05/06/2015"
+      }
+    },
+    {
+      "filename": "20160117_125232.jpg",
+      "filePath": "./images/phone-pictures/20160117_125232.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20160117_125232_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2016:01:17 12:52:32",
+        "ImageDescription": "01/17/2016"
+      }
+    },
+    {
+      "filename": "20150727_191228.jpg",
+      "filePath": "./images/phone-pictures/20150727_191228.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20150727_191228_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2015:07:27 19:12:28",
+        "ImageDescription": "07/27/2015"
+      }
+    },
+    {
+      "filename": "20210905_145930.jpg",
+      "filePath": "./images/phone-pictures/20210905_145930.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20210905_145930_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:09:05 14:59:31",
+        "ImageDescription": "09/05/2021"
+      }
+    },
+    {
+      "filename": "20140423_130144.jpg",
+      "filePath": "./images/phone-pictures/20140423_130144.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140423_130144_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:04:23 13:01:44",
+        "ImageDescription": "04/23/2014"
+      }
+    },
+    {
+      "filename": "20140226_214211.jpg",
+      "filePath": "./images/phone-pictures/20140226_214211.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140226_214211_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:02:26 21:42:10",
+        "ImageDescription": "02/26/2014"
+      }
+    },
+    {
+      "filename": "20140622_141459.jpg",
+      "filePath": "./images/phone-pictures/20140622_141459.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140622_141459_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:06:22 14:14:59",
+        "ImageDescription": "06/22/2014"
+      }
+    },
+    {
+      "filename": "20140622_162159.jpg",
+      "filePath": "./images/phone-pictures/20140622_162159.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140622_162159_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:06:22 16:21:58",
+        "ImageDescription": "06/22/2014"
+      }
+    },
+    {
+      "filename": "20140304_221755.jpg",
+      "filePath": "./images/phone-pictures/20140304_221755.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140304_221755_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:03:04 22:17:54",
+        "ImageDescription": "03/04/2014"
+      }
+    },
+    {
+      "filename": "20210826_170144.jpg",
+      "filePath": "./images/phone-pictures/20210826_170144.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20210826_170144_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:08:26 17:01:44",
+        "ImageDescription": "08/26/2021"
+      }
+    },
+    {
+      "filename": "20140802_180227.jpg",
+      "filePath": "./images/phone-pictures/20140802_180227.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140802_180227_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:08:02 18:02:26",
+        "ImageDescription": "08/02/2014"
+      }
+    },
+    {
+      "filename": "20140925_183618.jpg",
+      "filePath": "./images/phone-pictures/20140925_183618.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140925_183618_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:09:25 18:36:17",
+        "ImageDescription": "09/25/2014"
+      }
+    },
+    {
+      "filename": "20140216_211521.jpg",
+      "filePath": "./images/phone-pictures/20140216_211521.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140216_211521_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:02:16 21:15:20",
+        "ImageDescription": "02/16/2014"
+      }
+    },
+    {
+      "filename": "20210905_141941.jpg",
+      "filePath": "./images/phone-pictures/20210905_141941.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20210905_141941_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:09:05 14:19:41",
+        "ImageDescription": "09/05/2021"
+      }
+    },
+    {
+      "filename": "20210914_113454.jpg",
+      "filePath": "./images/phone-pictures/20210914_113454.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20210914_113454_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:09:14 11:34:55",
+        "ImageDescription": "09/14/2021"
+      }
+    },
+    {
+      "filename": "20171230_141051.jpg",
+      "filePath": "./images/phone-pictures/20171230_141051.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20171230_141051_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2017:12:30 14:10:50",
+        "ImageDescription": "12/30/2017"
+      }
+    },
+    {
+      "filename": "20210813_155323.jpg",
+      "filePath": "./images/phone-pictures/20210813_155323.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20210813_155323_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:08:13 15:53:23",
+        "ImageDescription": "08/13/2021"
+      }
+    },
+    {
+      "filename": "20210710_130639.jpg",
+      "filePath": "./images/phone-pictures/20210710_130639.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20210710_130639_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:07:10 13:06:39",
+        "ImageDescription": "07/10/2021"
+      }
+    },
+    {
+      "filename": "20140927_202622.jpg",
+      "filePath": "./images/phone-pictures/20140927_202622.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140927_202622_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:09:27 20:26:21",
+        "ImageDescription": "09/27/2014"
+      }
+    },
+    {
+      "filename": "20210710_130624.jpg",
+      "filePath": "./images/phone-pictures/20210710_130624.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20210710_130624_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:07:10 13:06:24",
+        "ImageDescription": "07/10/2021"
+      }
+    },
+    {
+      "filename": "20140422_140950.jpg",
+      "filePath": "./images/phone-pictures/20140422_140950.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140422_140950_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:04:22 14:09:49",
+        "ImageDescription": "04/22/2014"
+      }
+    },
+    {
+      "filename": "20160211_155254.jpg",
+      "filePath": "./images/phone-pictures/20160211_155254.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20160211_155254_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2016:02:11 15:52:54",
+        "ImageDescription": "02/11/2016"
+      }
+    },
+    {
+      "filename": "20210818_140150.jpg",
+      "filePath": "./images/phone-pictures/20210818_140150.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20210818_140150_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:08:18 14:01:50",
+        "ImageDescription": "08/18/2021"
+      }
+    },
+    {
+      "filename": "20211121_112821.jpg",
+      "filePath": "./images/phone-pictures/20211121_112821.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20211121_112821_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:11:21 11:28:22",
+        "ImageDescription": "11/21/2021"
+      }
+    },
+    {
+      "filename": "20140214_184511.jpg",
+      "filePath": "./images/phone-pictures/20140214_184511.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140214_184511_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:02:14 18:45:10",
+        "ImageDescription": "02/14/2014"
+      }
+    },
+    {
+      "filename": "20181018_152616.jpg",
+      "filePath": "./images/phone-pictures/20181018_152616.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20181018_152616_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2018:10:18 15:26:16",
+        "ImageDescription": "10/18/2018"
+      }
+    },
+    {
+      "filename": "20150321_144411.jpg",
+      "filePath": "./images/phone-pictures/20150321_144411.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20150321_144411_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2015:03:21 14:44:10",
+        "ImageDescription": "03/21/2015"
+      }
+    },
+    {
+      "filename": "20140927_153451.jpg",
+      "filePath": "./images/phone-pictures/20140927_153451.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140927_153451_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:09:27 15:34:50",
+        "ImageDescription": "09/27/2014"
+      }
+    },
+    {
+      "filename": "20150517_152623.jpg",
+      "filePath": "./images/phone-pictures/20150517_152623.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20150517_152623_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2015:05:17 15:26:22",
+        "ImageDescription": "05/17/2015"
+      }
+    },
+    {
+      "filename": "20140427_110540.jpg",
+      "filePath": "./images/phone-pictures/20140427_110540.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140427_110540_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:04:27 11:05:39",
+        "ImageDescription": "04/27/2014"
+      }
+    },
+    {
+      "filename": "20140427_103450.jpg",
+      "filePath": "./images/phone-pictures/20140427_103450.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140427_103450_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:04:27 10:34:50",
+        "ImageDescription": "04/27/2014"
+      }
+    },
+    {
+      "filename": "20220205_225348.jpg",
+      "filePath": "./images/phone-pictures/20220205_225348.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20220205_225348_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2022:02:05 22:53:48",
+        "ImageDescription": "02/05/2022"
+      }
+    },
+    {
+      "filename": "20211208_215225.jpg",
+      "filePath": "./images/phone-pictures/20211208_215225.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20211208_215225_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:12:08 21:52:25",
+        "ImageDescription": "12/08/2021"
+      }
+    },
+    {
+      "filename": "20220110_134344.jpg",
+      "filePath": "./images/phone-pictures/20220110_134344.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20220110_134344_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2022:01:10 13:43:44",
+        "ImageDescription": "01/10/2022"
+      }
+    },
+    {
+      "filename": "20141103_071217.jpg",
+      "filePath": "./images/phone-pictures/20141103_071217.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20141103_071217_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:11:03 07:12:17",
+        "ImageDescription": "11/03/2014"
+      }
+    },
+    {
+      "filename": "20220205_225415.jpg",
+      "filePath": "./images/phone-pictures/20220205_225415.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20220205_225415_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2022:02:05 22:54:15",
+        "ImageDescription": "02/05/2022"
+      }
+    },
+    {
+      "filename": "20210813_122839.jpg",
+      "filePath": "./images/phone-pictures/20210813_122839.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20210813_122839_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:08:13 12:28:39",
+        "ImageDescription": "08/13/2021"
+      }
+    },
+    {
+      "filename": "20140425_122835.jpg",
+      "filePath": "./images/phone-pictures/20140425_122835.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140425_122835_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:04:25 12:28:34",
+        "ImageDescription": "04/25/2014"
+      }
+    },
+    {
+      "filename": "20140927_190451.jpg",
+      "filePath": "./images/phone-pictures/20140927_190451.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140927_190451_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:09:27 19:04:51",
+        "ImageDescription": "09/27/2014"
+      }
+    },
+    {
+      "filename": "20210823_123216.jpg",
+      "filePath": "./images/phone-pictures/20210823_123216.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20210823_123216_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:08:23 12:32:16",
+        "ImageDescription": "08/23/2021"
+      }
+    },
+    {
+      "filename": "20220130_163304.jpg",
+      "filePath": "./images/phone-pictures/20220130_163304.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20220130_163304_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2022:01:30 16:33:04",
+        "ImageDescription": "01/30/2022"
+      }
+    },
+    {
+      "filename": "20211031_203759.jpg",
+      "filePath": "./images/phone-pictures/20211031_203759.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20211031_203759_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:10:31 20:37:59",
+        "ImageDescription": "10/31/2021"
+      }
+    },
+    {
+      "filename": "20140512_192246.jpg",
+      "filePath": "./images/phone-pictures/20140512_192246.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140512_192246_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:05:12 19:22:45",
+        "ImageDescription": "05/12/2014"
+      }
+    },
+    {
+      "filename": "20210730_101205.jpg",
+      "filePath": "./images/phone-pictures/20210730_101205.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20210730_101205_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:07:30 10:12:06",
+        "ImageDescription": "07/30/2021"
+      }
+    },
+    {
+      "filename": "20211202_093712.jpg",
+      "filePath": "./images/phone-pictures/20211202_093712.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20211202_093712_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:12:02 09:37:12",
+        "ImageDescription": "12/02/2021"
+      }
+    },
+    {
+      "filename": "20140727_195700.jpg",
+      "filePath": "./images/phone-pictures/20140727_195700.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140727_195700_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:07:27 19:56:59",
+        "ImageDescription": "07/27/2014"
+      }
+    },
+    {
+      "filename": "20140221_205050.jpg",
+      "filePath": "./images/phone-pictures/20140221_205050.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140221_205050_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:02:21 20:50:49",
+        "ImageDescription": "02/21/2014"
+      }
+    },
+    {
+      "filename": "20220319_220251.jpg",
+      "filePath": "./images/phone-pictures/20220319_220251.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20220319_220251_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2022:03:19 22:02:51",
+        "ImageDescription": "03/19/2022"
+      }
+    },
+    {
+      "filename": "20170211_141816.jpg",
+      "filePath": "./images/phone-pictures/20170211_141816.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20170211_141816_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2017:02:11 14:18:15",
+        "ImageDescription": "02/11/2017"
+      }
+    },
+    {
+      "filename": "20210705_101728.jpg",
+      "filePath": "./images/phone-pictures/20210705_101728.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20210705_101728_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2021:07:05 10:17:29",
+        "ImageDescription": "07/05/2021"
+      }
+    },
+    {
+      "filename": "20181018_152621.jpg",
+      "filePath": "./images/phone-pictures/20181018_152621.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20181018_152621_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2018:10:18 15:26:21",
+        "ImageDescription": "10/18/2018"
+      }
+    },
+    {
+      "filename": "20170604_151850.jpg",
+      "filePath": "./images/phone-pictures/20170604_151850.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20170604_151850_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2017:06:04 15:18:50",
+        "ImageDescription": "06/04/2017"
+      }
+    },
+    {
+      "filename": "20150517_152403.jpg",
+      "filePath": "./images/phone-pictures/20150517_152403.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20150517_152403_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2015:05:17 15:24:03",
+        "ImageDescription": "05/17/2015"
+      }
+    },
+    {
+      "filename": "20140216_095649.jpg",
+      "filePath": "./images/phone-pictures/20140216_095649.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140216_095649_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:02:16 09:56:49",
+        "ImageDescription": "02/16/2014"
+      }
+    },
+    {
+      "filename": "20150722_103008.jpg",
+      "filePath": "./images/phone-pictures/20150722_103008.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20150722_103008_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2015:07:22 10:30:07",
+        "ImageDescription": "07/22/2015"
+      }
+    },
+    {
+      "filename": "20150726_143813.jpg",
+      "filePath": "./images/phone-pictures/20150726_143813.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20150726_143813_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2015:07:26 14:38:13",
+        "ImageDescription": "07/26/2015"
+      }
+    },
+    {
+      "filename": "20140413_121956.jpg",
+      "filePath": "./images/phone-pictures/20140413_121956.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140413_121956_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:04:13 12:19:55",
+        "ImageDescription": "04/13/2014"
+      }
+    },
+    {
+      "filename": "20140918_200343.jpg",
+      "filePath": "./images/phone-pictures/20140918_200343.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140918_200343_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:09:18 20:03:42",
+        "ImageDescription": "09/18/2014"
+      }
+    },
+    {
+      "filename": "20160117_122732.jpg",
+      "filePath": "./images/phone-pictures/20160117_122732.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20160117_122732_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2016:01:17 12:27:32",
+        "ImageDescription": "01/17/2016"
+      }
+    },
+    {
+      "filename": "20140322_155745.jpg",
+      "filePath": "./images/phone-pictures/20140322_155745.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140322_155745_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:03:22 15:57:45",
+        "ImageDescription": "03/22/2014"
+      }
+    },
+    {
+      "filename": "20150517_152612.jpg",
+      "filePath": "./images/phone-pictures/20150517_152612.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20150517_152612_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2015:05:17 15:26:11",
+        "ImageDescription": "05/17/2015"
+      }
+    },
+    {
+      "filename": "20181018_152625.jpg",
+      "filePath": "./images/phone-pictures/20181018_152625.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20181018_152625_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2018:10:18 15:26:25",
+        "ImageDescription": "10/18/2018"
+      }
+    },
+    {
+      "filename": "20220424_101709.jpg",
+      "filePath": "./images/phone-pictures/20220424_101709.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20220424_101709_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2022:04:24 10:17:09",
+        "ImageDescription": "04/24/2022"
+      }
+    },
+    {
+      "filename": "20140518_202354.jpg",
+      "filePath": "./images/phone-pictures/20140518_202354.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140518_202354_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:05:18 20:23:53",
+        "ImageDescription": "05/18/2014"
+      }
+    },
+    {
+      "filename": "20160110_210808.jpg",
+      "filePath": "./images/phone-pictures/20160110_210808.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20160110_210808_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2016:01:10 21:08:08",
+        "ImageDescription": "01/10/2016"
+      }
+    },
+    {
+      "filename": "20150506_185514.jpg",
+      "filePath": "./images/phone-pictures/20150506_185514.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20150506_185514_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2015:05:06 18:55:13",
+        "ImageDescription": "05/06/2015"
+      }
+    },
+    {
+      "filename": "20140211_181928.jpg",
+      "filePath": "./images/phone-pictures/20140211_181928.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140211_181928_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:02:11 18:19:27",
+        "ImageDescription": "02/11/2014"
+      }
+    },
+    {
+      "filename": "20140214_191603.jpg",
+      "filePath": "./images/phone-pictures/20140214_191603.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140214_191603_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:02:14 19:16:01",
+        "ImageDescription": "02/14/2014"
+      }
+    }
+  ],
+  "purple-and-pink-albums": [
     {
       "filename": "Leo_36.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_36_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_36.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_36_small.jpg",
       "exif": {
         "DateTimeOriginal": "2012:03:10 00:00:00",
         "ImageDescription": "12/3/2010"
@@ -10,7 +958,8 @@
     },
     {
       "filename": "Leo_73.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_73_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_73.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_73_small.jpg",
       "exif": {
         "DateTimeOriginal": "2014:09:08 00:00:00",
         "ImageDescription": "9/8/2014"
@@ -18,7 +967,8 @@
     },
     {
       "filename": "Leo_56.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_56_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_56.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_56_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:08:17 00:00:00",
         "ImageDescription": "8/17/2008"
@@ -26,7 +976,8 @@
     },
     {
       "filename": "Leo_67.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_67_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_67.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_67_small.jpg",
       "exif": {
         "DateTimeOriginal": "2014:06:19 00:00:00",
         "ImageDescription": "6/19/2014"
@@ -34,7 +985,8 @@
     },
     {
       "filename": "Leo_19.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_19_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_19.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_19_small.jpg",
       "exif": {
         "DateTimeOriginal": "2009:06:23 00:00:00",
         "ImageDescription": "6/23/2009"
@@ -42,7 +994,8 @@
     },
     {
       "filename": "Leo_34.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_34_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_34.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_34_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:07:29 00:00:00",
         "ImageDescription": "7/29/2008"
@@ -50,7 +1003,8 @@
     },
     {
       "filename": "Leo_49.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_49_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_49.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_49_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:07:05 00:00:00",
         "ImageDescription": "7/5/2008"
@@ -58,7 +1012,8 @@
     },
     {
       "filename": "Leo_77.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_77_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_77.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_77_small.jpg",
       "exif": {
         "DateTimeOriginal": "2013:04:05 00:00:00",
         "ImageDescription": "4/5/2013"
@@ -66,7 +1021,8 @@
     },
     {
       "filename": "Leo_38.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_38_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_38.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_38_small.jpg",
       "exif": {
         "DateTimeOriginal": "2011:01:16 00:00:00",
         "ImageDescription": "1/16/2011"
@@ -74,7 +1030,8 @@
     },
     {
       "filename": "Leo_90.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_90_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_90.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_90_small.jpg",
       "exif": {
         "DateTimeOriginal": "2009:04:17 00:00:00",
         "ImageDescription": "4/17/2009"
@@ -82,7 +1039,8 @@
     },
     {
       "filename": "Leo_89.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_89_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_89.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_89_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:02:24 00:00:00",
         "ImageDescription": "2/24/2008"
@@ -90,7 +1048,8 @@
     },
     {
       "filename": "Leo_72.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_72_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_72.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_72_small.jpg",
       "exif": {
         "DateTimeOriginal": "2012:12:25 00:00:00",
         "ImageDescription": "12/25/2012"
@@ -98,7 +1057,8 @@
     },
     {
       "filename": "Leo_25.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_25_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_25.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_25_small.jpg",
       "exif": {
         "DateTimeOriginal": "2009:05:30 00:00:00",
         "ImageDescription": "5/30/2009"
@@ -106,7 +1066,8 @@
     },
     {
       "filename": "Leo_45.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_45_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_45.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_45_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:07:29 00:00:00",
         "ImageDescription": "7/29/2008"
@@ -114,7 +1075,8 @@
     },
     {
       "filename": "Leo_17.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_17_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_17.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_17_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:05:15 00:00:00",
         "ImageDescription": "5/15/2008"
@@ -122,7 +1084,8 @@
     },
     {
       "filename": "Leo_92.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_92_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_92.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_92_small.jpg",
       "exif": {
         "DateTimeOriginal": "2012:12:09 00:00:00",
         "ImageDescription": "12/9/2012"
@@ -130,7 +1093,8 @@
     },
     {
       "filename": "Leo_54.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_54_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_54.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_54_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:08:17 00:00:00",
         "ImageDescription": "8/17/2008"
@@ -138,7 +1102,8 @@
     },
     {
       "filename": "Leo_29.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_29_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_29.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_29_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:07:04 00:00:00",
         "ImageDescription": "7/4/2008"
@@ -146,7 +1111,8 @@
     },
     {
       "filename": "Leo_09.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_09_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_09.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_09_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:09:21 00:00:00",
         "ImageDescription": "9/21/2008"
@@ -154,7 +1120,8 @@
     },
     {
       "filename": "Leo_12.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_12_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_12.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_12_small.jpg",
       "exif": {
         "DateTimeOriginal": "2009:01:04 00:00:00",
         "ImageDescription": "1/4/2009"
@@ -162,7 +1129,8 @@
     },
     {
       "filename": "Leo_80.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_80_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_80.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_80_small.jpg",
       "exif": {
         "DateTimeOriginal": "2012:11:28 00:00:00",
         "ImageDescription": "11/28/2012"
@@ -170,7 +1138,8 @@
     },
     {
       "filename": "Leo_40.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_40_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_40.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_40_small.jpg",
       "exif": {
         "DateTimeOriginal": "2011:03:25 00:00:00",
         "ImageDescription": "3/25/2011"
@@ -178,7 +1147,8 @@
     },
     {
       "filename": "Leo_79.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_79_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_79.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_79_small.jpg",
       "exif": {
         "DateTimeOriginal": "2012:12:02 00:00:00",
         "ImageDescription": "12/2/2012"
@@ -186,7 +1156,8 @@
     },
     {
       "filename": "Leo_53.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_53_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_53.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_53_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:06:02 00:00:00",
         "ImageDescription": "6/2/2008"
@@ -194,7 +1165,8 @@
     },
     {
       "filename": "Leo_31.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_31_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_31.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_31_small.jpg",
       "exif": {
         "DateTimeOriginal": "2009:10:10 00:00:00",
         "ImageDescription": "10/10/2009"
@@ -202,7 +1174,8 @@
     },
     {
       "filename": "Leo_39.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_39_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_39.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_39_small.jpg",
       "exif": {
         "DateTimeOriginal": "2011:03:19 00:00:00",
         "ImageDescription": "3/19/2011"
@@ -210,7 +1183,8 @@
     },
     {
       "filename": "Leo_22.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_22_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_22.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_22_small.jpg",
       "exif": {
         "DateTimeOriginal": "2009:03:15 00:00:00",
         "ImageDescription": "3/15/2009"
@@ -218,7 +1192,8 @@
     },
     {
       "filename": "Leo_82.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_82_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_82.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_82_small.jpg",
       "exif": {
         "DateTimeOriginal": "2013:01:06 00:00:00",
         "ImageDescription": "1/6/2013"
@@ -226,7 +1201,8 @@
     },
     {
       "filename": "Leo_27.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_27_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_27.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_27_small.jpg",
       "exif": {
         "DateTimeOriginal": "2009:07:18 00:00:00",
         "ImageDescription": "7/18/2009"
@@ -234,7 +1210,8 @@
     },
     {
       "filename": "Leo_87.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_87_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_87.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_87_small.jpg",
       "exif": {
         "DateTimeOriginal": "2006:12:10 00:00:00",
         "ImageDescription": "12/10/2006"
@@ -242,7 +1219,8 @@
     },
     {
       "filename": "Leo_04.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_04_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_04.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_04_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:08:31 00:00:00",
         "ImageDescription": "8/31/2008"
@@ -250,7 +1228,8 @@
     },
     {
       "filename": "Leo_51.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_51_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_51.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_51_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:07:06 00:00:00",
         "ImageDescription": "7/6/2008"
@@ -258,7 +1237,8 @@
     },
     {
       "filename": "Leo_10.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_10_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_10.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_10_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:11:28 00:00:00",
         "ImageDescription": "11/28/2008"
@@ -266,7 +1246,8 @@
     },
     {
       "filename": "Leo_33.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_33_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_33.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_33_small.jpg",
       "exif": {
         "DateTimeOriginal": "2010:01:17 00:00:00",
         "ImageDescription": "1/17/2010"
@@ -274,7 +1255,8 @@
     },
     {
       "filename": "Leo_70.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_70_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_70.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_70_small.jpg",
       "exif": {
         "DateTimeOriginal": "1992:03:09 00:00:00",
         "ImageDescription": "3/9/1992"
@@ -282,7 +1264,8 @@
     },
     {
       "filename": "Leo_06.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_06_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_06.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_06_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:05:15 00:00:00",
         "ImageDescription": "5/15/2008"
@@ -290,7 +1273,8 @@
     },
     {
       "filename": "Leo_81.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_81_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_81.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_81_small.jpg",
       "exif": {
         "DateTimeOriginal": "1992:03:09 00:00:00",
         "ImageDescription": "3/9/1992"
@@ -298,7 +1282,8 @@
     },
     {
       "filename": "Leo_18.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_18_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_18.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_18_small.jpg",
       "exif": {
         "DateTimeOriginal": "2009:02:21 00:00:00",
         "ImageDescription": "2/21/2009"
@@ -306,7 +1291,8 @@
     },
     {
       "filename": "Leo_88.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_88_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_88.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_88_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:03:14 00:00:00",
         "ImageDescription": "3/14/2008"
@@ -314,7 +1300,8 @@
     },
     {
       "filename": "Leo_74.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_74_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_74.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_74_small.jpg",
       "exif": {
         "DateTimeOriginal": "2012:11:18 00:00:00",
         "ImageDescription": "11/18/2012"
@@ -322,7 +1309,8 @@
     },
     {
       "filename": "Leo_57.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_57_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_57.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_57_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:08:30 00:00:00",
         "ImageDescription": "8/30/2008"
@@ -330,7 +1318,8 @@
     },
     {
       "filename": "Leo_30.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_30_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_30.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_30_small.jpg",
       "exif": {
         "DateTimeOriginal": "2009:09:06 00:00:00",
         "ImageDescription": "9/6/2009"
@@ -338,7 +1327,8 @@
     },
     {
       "filename": "Leo_35.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_35_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_35.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_35_small.jpg",
       "exif": {
         "DateTimeOriginal": "2010:01:18 00:00:00",
         "ImageDescription": "1/18/2010"
@@ -346,7 +1336,8 @@
     },
     {
       "filename": "Leo_14.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_14_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_14.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_14_small.jpg",
       "exif": {
         "DateTimeOriginal": "2009:01:03 00:00:00",
         "ImageDescription": "1/3/2009"
@@ -354,7 +1345,8 @@
     },
     {
       "filename": "Leo_11.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_11_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_11.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_11_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:11:29 00:00:00",
         "ImageDescription": "11/29/2008"
@@ -362,7 +1354,8 @@
     },
     {
       "filename": "Leo_46.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_46_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_46.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_46_small.jpg",
       "exif": {
         "DateTimeOriginal": "2013:03:17 00:00:00",
         "ImageDescription": "3/17/2013"
@@ -370,7 +1363,8 @@
     },
     {
       "filename": "Leo_16.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_16_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_16.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_16_small.jpg",
       "exif": {
         "DateTimeOriginal": "2009:01:24 00:00:00",
         "ImageDescription": "1/24/2009"
@@ -378,7 +1372,8 @@
     },
     {
       "filename": "Leo_75.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_75_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_75.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_75_small.jpg",
       "exif": {
         "DateTimeOriginal": "2012:11:26 00:00:00",
         "ImageDescription": "11/26/2012"
@@ -386,7 +1381,8 @@
     },
     {
       "filename": "Leo_24.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_24_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_24.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_24_small.jpg",
       "exif": {
         "DateTimeOriginal": "2009:05:29 00:00:00",
         "ImageDescription": "5/29/2009"
@@ -394,7 +1390,8 @@
     },
     {
       "filename": "Leo_07.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_07_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_07.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_07_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:08:31 00:00:00",
         "ImageDescription": "8/31/2008"
@@ -402,7 +1399,8 @@
     },
     {
       "filename": "Leo_41.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_41_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_41.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_41_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:07:05 00:00:00",
         "ImageDescription": "7/5/2008"
@@ -410,7 +1408,8 @@
     },
     {
       "filename": "Leo_62.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_62_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_62.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_62_small.jpg",
       "exif": {
         "DateTimeOriginal": "2014:01:11 00:00:00",
         "ImageDescription": "1/11/2014"
@@ -418,7 +1417,8 @@
     },
     {
       "filename": "Leo_83.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_83_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_83.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_83_small.jpg",
       "exif": {
         "DateTimeOriginal": "2013:07:07 00:00:00",
         "ImageDescription": "7/7/2013"
@@ -426,7 +1426,8 @@
     },
     {
       "filename": "Leo_43.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_43_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_43.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_43_small.jpg",
       "exif": {
         "DateTimeOriginal": "2013:05:20 00:00:00",
         "ImageDescription": "5/20/2013"
@@ -434,7 +1435,8 @@
     },
     {
       "filename": "Leo_21.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_21_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_21.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_21_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:08:17 00:00:00",
         "ImageDescription": "8/17/2008"
@@ -442,7 +1444,8 @@
     },
     {
       "filename": "Leo_63.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_63_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_63.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_63_small.jpg",
       "exif": {
         "DateTimeOriginal": "2014:06:19 00:00:00",
         "ImageDescription": "6/19/2014"
@@ -450,7 +1453,8 @@
     },
     {
       "filename": "Leo_44.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_44_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_44.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_44_small.jpg",
       "exif": {
         "DateTimeOriginal": "2013:04:21 00:00:00",
         "ImageDescription": "4/21/2013"
@@ -458,7 +1462,8 @@
     },
     {
       "filename": "Leo_48.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_48_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_48.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_48_small.jpg",
       "exif": {
         "DateTimeOriginal": "2009:10:10 00:00:00",
         "ImageDescription": "10/10/2009"
@@ -466,7 +1471,8 @@
     },
     {
       "filename": "Leo_78.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_78_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_78.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_78_small.jpg",
       "exif": {
         "DateTimeOriginal": "2013:03:17 00:00:00",
         "ImageDescription": "3/17/2013"
@@ -474,7 +1480,8 @@
     },
     {
       "filename": "Leo_66.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_66_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_66.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_66_small.jpg",
       "exif": {
         "DateTimeOriginal": "2014:06:19 00:00:00",
         "ImageDescription": "6/19/2014"
@@ -482,7 +1489,8 @@
     },
     {
       "filename": "Leo_08.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_08_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_08.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_08_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:08:30 00:00:00",
         "ImageDescription": "8/30/2008"
@@ -490,7 +1498,8 @@
     },
     {
       "filename": "Leo_68.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_68_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_68.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_68_small.jpg",
       "exif": {
         "DateTimeOriginal": "2014:12:07 00:00:00",
         "ImageDescription": "12/7/2014"
@@ -498,7 +1507,8 @@
     },
     {
       "filename": "Leo_42.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_42_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_42.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_42_small.jpg",
       "exif": {
         "DateTimeOriginal": "2012:02:19 00:00:00",
         "ImageDescription": "2/19/2012"
@@ -506,7 +1516,8 @@
     },
     {
       "filename": "Leo_32.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_32_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_32.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_32_small.jpg",
       "exif": {
         "DateTimeOriginal": "2009:10:24 00:00:00",
         "ImageDescription": "10/24/2009"
@@ -514,7 +1525,8 @@
     },
     {
       "filename": "Leo_15.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_15_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_15.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_15_small.jpg",
       "exif": {
         "DateTimeOriginal": "2009:01:12 00:00:00",
         "ImageDescription": "1/12/2009"
@@ -522,7 +1534,8 @@
     },
     {
       "filename": "Leo_93.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_93_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_93.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_93_small.jpg",
       "exif": {
         "DateTimeOriginal": "2013:11:16 00:00:00",
         "ImageDescription": "11/16/2013"
@@ -530,7 +1543,8 @@
     },
     {
       "filename": "Leo_86.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_86_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_86.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_86_small.jpg",
       "exif": {
         "DateTimeOriginal": "2012:11:13 00:00:00",
         "ImageDescription": "11/13/2012"
@@ -538,7 +1552,8 @@
     },
     {
       "filename": "Leo_64.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_64_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_64.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_64_small.jpg",
       "exif": {
         "DateTimeOriginal": "2014:06:19 00:00:00",
         "ImageDescription": "6/19/2014"
@@ -546,7 +1561,8 @@
     },
     {
       "filename": "Leo_65.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_65_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_65.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_65_small.jpg",
       "exif": {
         "DateTimeOriginal": "2014:06:19 00:00:00",
         "ImageDescription": "6/19/2014"
@@ -554,7 +1570,8 @@
     },
     {
       "filename": "Leo_71.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_71_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_71.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_71_small.jpg",
       "exif": {
         "DateTimeOriginal": "2014:01:13 00:00:00",
         "ImageDescription": "1/13/2014"
@@ -562,7 +1579,8 @@
     },
     {
       "filename": "Leo_91.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_91_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_91.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_91_small.jpg",
       "exif": {
         "DateTimeOriginal": "2009:04:14 00:00:00",
         "ImageDescription": "4/14/2009"
@@ -570,7 +1588,8 @@
     },
     {
       "filename": "Leo_69.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_69_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_69.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_69_small.jpg",
       "exif": {
         "DateTimeOriginal": "2014:10:24 00:00:00",
         "ImageDescription": "10/24/2014"
@@ -578,7 +1597,8 @@
     },
     {
       "filename": "Leo_85.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_85_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_85.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_85_small.jpg",
       "exif": {
         "DateTimeOriginal": "2013:04:27 00:00:00",
         "ImageDescription": "4/27/2013"
@@ -586,7 +1606,8 @@
     },
     {
       "filename": "Leo_58.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_58_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_58.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_58_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:08:30 00:00:00",
         "ImageDescription": "8/30/2008"
@@ -594,7 +1615,8 @@
     },
     {
       "filename": "Leo_37.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_37_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_37.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_37_small.jpg",
       "exif": {
         "DateTimeOriginal": "2011:01:16 00:00:00",
         "ImageDescription": "1/16/2011"
@@ -602,7 +1624,8 @@
     },
     {
       "filename": "Leo_03.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_03_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_03.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_03_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:08:31 00:00:00",
         "ImageDescription": "8/31/2008"
@@ -610,7 +1633,8 @@
     },
     {
       "filename": "Leo_20.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_20_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_20.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_20_small.jpg",
       "exif": {
         "DateTimeOriginal": "2009:06:23 00:00:00",
         "ImageDescription": "6/23/2009"
@@ -618,7 +1642,8 @@
     },
     {
       "filename": "Leo_26.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_26_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_26.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_26_small.jpg",
       "exif": {
         "DateTimeOriginal": "2009:05:25 00:00:00",
         "ImageDescription": "5/25/2009"
@@ -626,7 +1651,8 @@
     },
     {
       "filename": "Leo_76.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_76_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_76.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_76_small.jpg",
       "exif": {
         "DateTimeOriginal": "2013:01:10 00:00:00",
         "ImageDescription": "1/10/2013"
@@ -634,7 +1660,8 @@
     },
     {
       "filename": "Leo_84.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_84_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_84.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_84_small.jpg",
       "exif": {
         "DateTimeOriginal": "2013:12:09 00:00:00",
         "ImageDescription": "12/9/2013"
@@ -642,7 +1669,8 @@
     },
     {
       "filename": "Leo_50.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_50_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_50.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_50_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:07:05 00:00:00",
         "ImageDescription": "7/5/2008"
@@ -650,7 +1678,8 @@
     },
     {
       "filename": "Leo_28.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_28_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_28.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_28_small.jpg",
       "exif": {
         "DateTimeOriginal": "2009:07:18 00:00:00",
         "ImageDescription": "7/18/2009"
@@ -658,7 +1687,8 @@
     },
     {
       "filename": "Leo_55.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_55_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_55.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_55_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:08:17 00:00:00",
         "ImageDescription": "8/17/2008"
@@ -666,7 +1696,8 @@
     },
     {
       "filename": "Leo_13.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_13_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_13.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_13_small.jpg",
       "exif": {
         "DateTimeOriginal": "2009:01:12 00:00:00",
         "ImageDescription": "1/12/2009"
@@ -674,7 +1705,8 @@
     },
     {
       "filename": "Leo_60.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_60_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_60.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_60_small.jpg",
       "exif": {
         "DateTimeOriginal": "2013:11:10 00:00:00",
         "ImageDescription": "11/10/2013"
@@ -682,7 +1714,8 @@
     },
     {
       "filename": "Leo_61.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_61_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_61.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_61_small.jpg",
       "exif": {
         "DateTimeOriginal": "2013:12:31 00:00:00",
         "ImageDescription": "12/31/2013"
@@ -690,7 +1723,8 @@
     },
     {
       "filename": "Leo_05.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_05_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_05.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_05_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:08:31 00:00:00",
         "ImageDescription": "8/31/2008"
@@ -698,7 +1732,8 @@
     },
     {
       "filename": "Leo_23.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_23_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_23.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_23_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:05:15 00:00:00",
         "ImageDescription": "5/15/2008"
@@ -706,7 +1741,8 @@
     },
     {
       "filename": "Leo_47.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_47_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_47.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_47_small.jpg",
       "exif": {
         "DateTimeOriginal": "2014:12:06 00:00:00",
         "ImageDescription": "12/6/2014"
@@ -714,7 +1750,8 @@
     },
     {
       "filename": "Leo_59.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_59_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_59.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_59_small.jpg",
       "exif": {
         "DateTimeOriginal": "1992:03:09 00:00:00",
         "ImageDescription": "3/9/1992"
@@ -722,7 +1759,8 @@
     },
     {
       "filename": "Leo_52.jpg",
-      "thumbnail": "./images/.thumbnails/Leo_52_small.jpg",
+      "filePath": "./images/purple-and-pink-albums/Leo_52.jpg",
+      "thumbnail": "./images/purple-and-pink-albums/.thumbnails/Leo_52_small.jpg",
       "exif": {
         "DateTimeOriginal": "2008:07:12 00:00:00",
         "ImageDescription": "7/12/2008"
