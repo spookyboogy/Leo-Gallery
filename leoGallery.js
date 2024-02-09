@@ -155,9 +155,7 @@ function initializeGallery() {
     } else {
         $('#tab-bar').removeClass('sticky');
     }
-
   });
-
 
 }
 
