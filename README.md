@@ -10,4 +10,4 @@ A small JavaScript/jQuery project utilizing Light Gallery and Justified Gallery 
 - [x] Create a script for building JSON from images in the `/images` directory; include it in the build script
 - [ ] Include the `thumbnail_generator` script in build scripts
 - [ ] Design a stylish top bar with buttons that function as tab switchers between separate albums
-- [ ] Consider separating purple and pink albums (if appropriate), and add other photos after cleaning/prepping them
+- [x] Consider separating purple and pink albums (if appropriate), and add other photos after cleaning/prepping them (considered.. not doing for now)
