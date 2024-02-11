@@ -59,15 +59,27 @@ function createImageTag(image) {
   return $imageTag;
 }
 
+function toggleButtonBackgrounds() {
+  $('.tab').each(function(){
+    const currentBackground = $(this).css('background-image');
+    const newBackground = currentBackground === 'none' ? $(this).data('background-image') : 'none';
+    $(this).css('background-image', newBackground);
+  });
+}
+
 function createTabButton(imageDirectory){
 
   let _text;
+  let backgroundImagePath;
+
   // hacky way of re-labeling the tab buttons
   // without sacrificing generalizability 
   if ( imageDirectory === 'phone-pictures' ) {
     _text = 'Digital Albums';
+    backgroundImagePath = './images/' + imageDirectory + '/preview.png'
   } else if ( imageDirectory === 'purple-and-pink-albums' ) {
     _text = 'Photo Albums';
+    backgroundImagePath = './images/' + imageDirectory + '/preview.png'
   } else {
     _text = imageDirectory;
   }
@@ -75,7 +87,13 @@ function createTabButton(imageDirectory){
   const $button = $('<button>', {
     class: 'tab',
     text: _text,
-    click: function(){openGallery(imageDirectory)}
+    css: {
+      'background-image': `url(${backgroundImagePath})`
+    },
+    'data-background-image': `url(${backgroundImagePath})`, 
+    click: function() {
+      openGallery(imageDirectory)
+    },
   });
   return $button 
 }
@@ -145,15 +163,21 @@ function initializeGallery() {
     margins: 4
   }); 
 
-  $(window).on("scroll", function(){
+  $(window).on("scroll", function() {
 
     const tabBarHeight = $('#tab-bar').outerHeight(); // Get the height of the tab bar
     var scrollTop = $(window).scrollTop();
 
-    if (scrollTop > tabBarHeight ) { // Adjust this value according to your needs
+    if (scrollTop > tabBarHeight ) { // might adjust later
+      if (!$('#tab-bar').hasClass('sticky')) { 
         $('#tab-bar').addClass('sticky');
+        toggleButtonBackgrounds();
+      }
     } else {
+      if ($('#tab-bar').hasClass('sticky')) { 
         $('#tab-bar').removeClass('sticky');
+        toggleButtonBackgrounds();
+      }
     }
   });
 
