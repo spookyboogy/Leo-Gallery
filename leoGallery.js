@@ -153,7 +153,7 @@ function initializeGallery() {
 
   // Create justifiedGalleries for each gallery
   $('.gallery').justifiedGallery({
-    waitThumbnailsLoad:	false,
+    waitThumbnailsLoad:	true,
     captions: false,
     lastRow: 'center',
     maxRowsCount: 0,
