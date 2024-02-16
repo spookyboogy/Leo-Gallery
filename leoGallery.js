@@ -7,9 +7,24 @@ import '/node_modules/lightgallery/plugins/zoom/lg-zoom.umd.js';
 import '/node_modules/justifiedGallery/dist/js/jquery.justifiedGallery.min.js';
 import images from '/images/images.json' assert { type: 'json' };
 
+var scrollPositions = {};
+
 function openGallery(galleryName){
-  $('.gallery').hide()
-  $('#' + galleryName).show()
+
+  var currentGalleryName = $('.gallery:visible').attr('id');
+  var scrollTop = $(window).scrollTop();
+  scrollPositions[currentGalleryName] = scrollTop;
+
+  // implement gallery-specific scroll position saving
+  $('.gallery').hide();
+  $('#' + galleryName).show();
+  
+  // Restore the scroll position of the previously selected gallery if it exists
+  if ( scrollPositions.hasOwnProperty(galleryName) ) {
+    $(window).scrollTop(scrollPositions[galleryName]);
+  } else { // Scroll to top
+    $(window).scrollTop(0);
+  }
 }
 
 // Function for comparing images by date
@@ -76,12 +91,14 @@ function createTabButton(imageDirectory){
   // without sacrificing generalizability 
   if ( imageDirectory === 'phone-pictures' ) {
     _text = 'Digital Albums';
-    backgroundImagePath = './images/' + imageDirectory + '/preview.png'
+    backgroundImagePath = './images/' + imageDirectory + '/preview.png';
   } else if ( imageDirectory === 'purple-and-pink-albums' ) {
     _text = 'Photo Albums';
-    backgroundImagePath = './images/' + imageDirectory + '/preview.png'
+    backgroundImagePath = './images/' + imageDirectory + '/preview.png';
   } else {
     _text = imageDirectory;
+    // check if a preview.png for backgroundImagePath exists in directory
+    // set if exists otherwise do nothing
   }
 
   const $button = $('<button>', {
@@ -92,10 +109,10 @@ function createTabButton(imageDirectory){
     },
     'data-background-image': `url(${backgroundImagePath})`, 
     click: function() {
-      openGallery(imageDirectory)
+      openGallery(imageDirectory);
     },
   });
-  return $button 
+  return $button;
 }
 
 function createGalleryDiv(imageDirectory, isVisible = false){
@@ -119,18 +136,24 @@ function initializeGallery() {
   defaultAlbum = defaultAlbum in images ? defaultAlbum : Object.keys(images)[0];
   
   console.log(`Unordered Directories: ${Object.keys(images)}`);
-  console.log(`Using default album : ${defaultAlbum}`)
+  console.log(`Using default album : ${defaultAlbum}`);
 
   for (const [subdirectory, imageArr] of Object.entries(images)){
     console.log(`Image directory: ${subdirectory}`);
     console.log("\tImages :", imageArr);
 
     const $button = createTabButton(subdirectory);
-    $('#tab-bar').append($button);
-
     const $galleryDiv = createGalleryDiv(subdirectory, (subdirectory === defaultAlbum));
-    $galleryContainer.append($galleryDiv);
 
+    if ( subdirectory === defaultAlbum ) {
+      // add defaultAlbum stuff to front rather than back
+      $('#tab-bar').prepend($button);
+      $galleryContainer.prepend($galleryDiv);
+    } else {
+      $('#tab-bar').append($button);
+      $galleryContainer.append($galleryDiv);
+    }
+    
     imageArr.sort(compareByDateTimeOriginal);
 
     for (const image of imageArr) {
