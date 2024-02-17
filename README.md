@@ -15,4 +15,7 @@ A small JavaScript/jQuery project utilizing Light Gallery and Justified Gallery 
 - [x] Design a stylish top bar with buttons that function as tab switchers between separate albums
 - [x] Consider separating purple and pink albums (if appropriate), and add other photos after cleaning/prepping them (considered.. not doing for now)
 - [ ] maybe implement media queries and srcset attributes or `<picture>` tags for serving smaller thumbnails to mobile devices. Currently, on mobile, the thumbnails are large enough that they usually get a whole row to themselves.  
-- [ ] add oneko.js ? multiple instances? 
+- [x] add oneko.js
+- [ ] remake neko sprite file with other colors (orange is closest to leo)  
+- [ ] add multiple instances of neko? 
+- [ ] use non-pitch-black background color for galleries (final row too dark)
