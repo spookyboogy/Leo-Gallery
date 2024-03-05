@@ -23,7 +23,7 @@ def generate_thumbnails(input_path, output_path, max_height=200):
         os.makedirs(output_path)
 
     for file_name in os.listdir(input_path):
-        if file_name.lower().endswith('.jpg'):
+        if file_name.lower().endswith('.jpg') or file_name.lower().endswith('.png'):
             input_image_path = os.path.join(input_path, file_name)
             # Add suffix to the filename before the extension
             base_name, extension = os.path.splitext(file_name)
@@ -124,7 +124,7 @@ def generate_json(base_image_directory, image_folders):
         image_entries = []
         thumbnail_folder_path = os.path.join(image_folder, '.thumbnails')
         for file_name in os.listdir(image_folder):
-            if file_name.lower().endswith('.jpg'):
+            if file_name.lower().endswith('.jpg') or file_name.lower().endswith('.png'):
                 input_image_path = os.path.join(image_folder, file_name)
                 base_name, extension = os.path.splitext(file_name)
                 output_thumbnail_name = f"{base_name}_small{extension}"
@@ -176,13 +176,15 @@ if __name__ == "__main__":
         if os.path.isdir(full_path):
             image_folders += [full_path]
 
+    max_height = 200
+
     print(f"Base Directory : {root_image_directory}")
     for folder in image_folders:
         print('_' * 20 + '\n')
         print(f"Image directory: {folder}")
 
         output_path = folder + '/.thumbnails/'
-        generate_thumbnails(folder, output_path)
+        generate_thumbnails(folder, output_path, max_height=max_height)
         
         print('\n' + '_' * 20 + '\n')
 
