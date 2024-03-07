@@ -18,14 +18,13 @@ async function loadImages() {
       throw new Error('Failed to load images');
     }
     images = await response.json(); // Assign the loaded images to the global variable
-    initializeGallery(); // Call initializeGallery after images are loaded
+    $(document).trigger('imagesLoaded');
+    // initializeGallery(); // Call initializeGallery after images are loaded
   } catch (error) {
     console.error('Error loading images:', error);
     // Handle the error appropriately
   }
 }
-
-$(loadImages);
 
 var scrollPositions = {};
 
@@ -225,6 +224,9 @@ function initializeGallery() {
     }
   });
 }
+
+$(loadImages);
+$(document).on('imagesLoaded', initializeGallery);
 
 
 // $(initializeGallery); // made redundant by loadImages
