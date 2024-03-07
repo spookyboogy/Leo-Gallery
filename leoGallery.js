@@ -5,7 +5,26 @@ import '/node_modules/lightgallery/plugins/autoplay/lg-autoplay.umd.js';
 import '/node_modules/lightgallery/plugins/rotate/lg-rotate.umd.js';
 import '/node_modules/lightgallery/plugins/zoom/lg-zoom.umd.js';
 import '/node_modules/justifiedGallery/dist/js/jquery.justifiedGallery.min.js';
-import images from '/images/images.json' assert { type: 'json' };
+// import images from '/images/images.json' assert { type: 'json' }; 
+// // this uses the es6 json module proposal which is supported by chrome but not by Safari and not on iOS devices 
+
+var images = {}; // Declare images as a global variable
+
+async function loadImages() {
+  try {
+    const response = await fetch('/images/images.json');
+    if (!response.ok) {
+      throw new Error('Failed to load images');
+    }
+    images = await response.json(); // Assign the loaded images to the global variable
+    initializeGallery(); // Call initializeGallery after images are loaded
+  } catch (error) {
+    console.error('Error loading images:', error);
+    // Handle the error appropriately
+  }
+}
+
+loadImages();
 
 var scrollPositions = {};
 
