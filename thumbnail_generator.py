@@ -23,7 +23,7 @@ def generate_thumbnails(input_path, output_path, max_height=200):
         os.makedirs(output_path)
 
     for file_name in os.listdir(input_path):
-        if file_name.lower().endswith('.jpg') or file_name.lower().endswith('.png'):
+        if file_name.lower().endswith('.jpg') or file_name.lower().endswith('.png') or file_name.lower().endswith('.jpeg'):
             input_image_path = os.path.join(input_path, file_name)
             # Add suffix to the filename before the extension
             base_name, extension = os.path.splitext(file_name)
