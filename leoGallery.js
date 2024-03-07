@@ -6,9 +6,10 @@ import '/node_modules/lightgallery/plugins/rotate/lg-rotate.umd.js';
 import '/node_modules/lightgallery/plugins/zoom/lg-zoom.umd.js';
 import '/node_modules/justifiedGallery/dist/js/jquery.justifiedGallery.min.js';
 // import images from '/images/images.json' assert { type: 'json' }; 
-// // this uses the es6 json module proposal which is supported by chrome but not by Safari and not on iOS devices 
+// // this uses the es6 import assertions proposal which is supported by chrome but 
+// // not by Safari or on iOS devices in general
 
-var images = {}; // Declare images as a global variable
+var images = {};
 
 async function loadImages() {
   try {
@@ -24,7 +25,7 @@ async function loadImages() {
   }
 }
 
-loadImages();
+$(loadImages);
 
 var scrollPositions = {};
 
@@ -149,6 +150,7 @@ function createGalleryDiv(imageDirectory, isVisible = false){
 function initializeGallery() {
   // console.log('DOM is ready');
   
+
   const $galleryContainer = $('#gallery-container');
   
   let defaultAlbum = "purple-and-pink-albums";
@@ -222,10 +224,10 @@ function initializeGallery() {
       }
     }
   });
-
 }
 
-$(initializeGallery);
+
+// $(initializeGallery); // made redundant by loadImages
 
 // Chrome gives the following warning
 // leoGallery.js:32 (calling lightGallery) [Violation] Added non-passive 
