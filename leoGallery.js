@@ -166,7 +166,7 @@ function initializeGallery() {
     const $galleryDiv = createGalleryDiv(subdirectory, (subdirectory === defaultAlbum));
 
     if ( subdirectory === defaultAlbum ) {
-      // add defaultAlbum stuff to front rather than back
+      // set defaultAlbum as the first tab
       $('#tab-bar').prepend($button);
       $galleryContainer.prepend($galleryDiv);
     } else {
@@ -177,8 +177,11 @@ function initializeGallery() {
     imageArr.sort(compareByDateTimeOriginal);
 
     for (const image of imageArr) {
-      const $imageTag = createImageTag(image);
-      $galleryDiv.append($imageTag);
+      // console.log("image of imageArr : ",  image);
+      if ( image.filename != "preview.png" ) {
+        const $imageTag = createImageTag(image);
+        $galleryDiv.append($imageTag);
+      }
     }
 
     // Create a LightGallery container for current gallery
