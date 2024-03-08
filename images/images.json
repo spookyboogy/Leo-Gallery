@@ -10,12 +10,39 @@
       }
     },
     {
+      "filename": "IMG_0270.JPG",
+      "filePath": "./images/phone-pictures/IMG_0270.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0270_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:10:21 10:36:35",
+        "ImageDescription": "10/21/2018"
+      }
+    },
+    {
+      "filename": "IMG_0176.JPG",
+      "filePath": "./images/phone-pictures/IMG_0176.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0176_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:06:07 16:58:33",
+        "ImageDescription": "06/07/2018"
+      }
+    },
+    {
       "filename": "20210823_144644.jpg",
       "filePath": "./images/phone-pictures/20210823_144644.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20210823_144644_small.jpg",
       "exif": {
         "DateTimeOriginal": "2021:08:23 14:46:44",
         "ImageDescription": "08/23/2021"
+      }
+    },
+    {
+      "filename": "IMG_0100.JPG",
+      "filePath": "./images/phone-pictures/IMG_0100.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0100_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2017:11:03 14:28:42",
+        "ImageDescription": "11/03/2017"
       }
     },
     {
@@ -28,12 +55,30 @@
       }
     },
     {
+      "filename": "IMG_0188.JPG",
+      "filePath": "./images/phone-pictures/IMG_0188.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0188_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:06:24 16:50:57",
+        "ImageDescription": "06/24/2018"
+      }
+    },
+    {
       "filename": "20141123_191115.jpg",
       "filePath": "./images/phone-pictures/20141123_191115.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20141123_191115_small.jpg",
       "exif": {
         "DateTimeOriginal": "2014:11:23 19:11:14",
         "ImageDescription": "11/23/2014"
+      }
+    },
+    {
+      "filename": "IMG_0153.JPG",
+      "filePath": "./images/phone-pictures/IMG_0153.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0153_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:03:25 17:16:06",
+        "ImageDescription": "03/25/2018"
       }
     },
     {
@@ -55,12 +100,30 @@
       }
     },
     {
+      "filename": "IMG_0376.JPG",
+      "filePath": "./images/phone-pictures/IMG_0376.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0376_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:02:21 18:21:27",
+        "ImageDescription": "02/21/2019"
+      }
+    },
+    {
       "filename": "20160125_155958.jpg",
       "filePath": "./images/phone-pictures/20160125_155958.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20160125_155958_small.jpg",
       "exif": {
         "DateTimeOriginal": "2016:01:25 15:59:58",
         "ImageDescription": "01/25/2016"
+      }
+    },
+    {
+      "filename": "IMG_0383.JPG",
+      "filePath": "./images/phone-pictures/IMG_0383.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0383_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:03:09 20:24:00",
+        "ImageDescription": "03/09/2019"
       }
     },
     {
@@ -82,12 +145,39 @@
       }
     },
     {
+      "filename": "IMG_0017.JPG",
+      "filePath": "./images/phone-pictures/IMG_0017.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0017_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2017:03:26 09:51:16",
+        "ImageDescription": "03/26/2017"
+      }
+    },
+    {
+      "filename": "20140327_203302 - Copy.jpg",
+      "filePath": "./images/phone-pictures/20140327_203302 - Copy.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140327_203302 - Copy_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:03:27 20:33:02",
+        "ImageDescription": "03/27/2014"
+      }
+    },
+    {
       "filename": "20160117_122608.jpg",
       "filePath": "./images/phone-pictures/20160117_122608.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20160117_122608_small.jpg",
       "exif": {
         "DateTimeOriginal": "2016:01:17 12:26:08",
         "ImageDescription": "01/17/2016"
+      }
+    },
+    {
+      "filename": "20140208_121239.jpg",
+      "filePath": "./images/phone-pictures/20140208_121239.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140208_121239_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:02:08 12:12:39",
+        "ImageDescription": "02/08/2014"
       }
     },
     {
@@ -145,6 +235,15 @@
       }
     },
     {
+      "filename": "IMG_0364.JPG",
+      "filePath": "./images/phone-pictures/IMG_0364.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0364_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:01:31 22:49:16",
+        "ImageDescription": "01/31/2019"
+      }
+    },
+    {
       "filename": "20231120_222208.jpg",
       "filePath": "./images/phone-pictures/20231120_222208.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20231120_222208_small.jpg",
@@ -178,6 +277,15 @@
       "exif": {
         "DateTimeOriginal": "2021:08:23 12:36:24",
         "ImageDescription": "08/23/2021"
+      }
+    },
+    {
+      "filename": "IMG_0372.JPG",
+      "filePath": "./images/phone-pictures/IMG_0372.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0372_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:02:16 17:34:17",
+        "ImageDescription": "02/16/2019"
       }
     },
     {
@@ -352,6 +460,15 @@
       }
     },
     {
+      "filename": "IMG_0204.JPG",
+      "filePath": "./images/phone-pictures/IMG_0204.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0204_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:07:20 19:52:35",
+        "ImageDescription": "07/20/2018"
+      }
+    },
+    {
       "filename": "20211213_080819.jpg",
       "filePath": "./images/phone-pictures/20211213_080819.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20211213_080819_small.jpg",
@@ -406,6 +523,15 @@
       }
     },
     {
+      "filename": "IMG_0373.JPG",
+      "filePath": "./images/phone-pictures/IMG_0373.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0373_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:02:18 17:54:00",
+        "ImageDescription": "02/18/2019"
+      }
+    },
+    {
       "filename": "20210817_122913.jpg",
       "filePath": "./images/phone-pictures/20210817_122913.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20210817_122913_small.jpg",
@@ -430,6 +556,15 @@
       "exif": {
         "DateTimeOriginal": null,
         "ImageDescription": null
+      }
+    },
+    {
+      "filename": "IMG_0500.JPG",
+      "filePath": "./images/phone-pictures/IMG_0500.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0500_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:08:27 21:19:49",
+        "ImageDescription": "08/27/2019"
       }
     },
     {
@@ -460,12 +595,30 @@
       }
     },
     {
+      "filename": "IMG_0302.JPG",
+      "filePath": "./images/phone-pictures/IMG_0302.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0302_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:11:21 11:00:33",
+        "ImageDescription": "11/21/2018"
+      }
+    },
+    {
       "filename": "20180428_103350.jpg",
       "filePath": "./images/phone-pictures/20180428_103350.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20180428_103350_small.jpg",
       "exif": {
         "DateTimeOriginal": "2018:04:28 10:33:50",
         "ImageDescription": "04/28/2018"
+      }
+    },
+    {
+      "filename": "IMG_0502.JPG",
+      "filePath": "./images/phone-pictures/IMG_0502.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0502_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:09:03 13:18:29",
+        "ImageDescription": "09/03/2019"
       }
     },
     {
@@ -502,6 +655,15 @@
       "exif": {
         "DateTimeOriginal": "2021:08:25 19:52:16",
         "ImageDescription": "08/25/2021"
+      }
+    },
+    {
+      "filename": "IMG_0048.JPG",
+      "filePath": "./images/phone-pictures/IMG_0048.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0048_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2017:07:01 15:00:30",
+        "ImageDescription": "07/01/2017"
       }
     },
     {
@@ -550,12 +712,39 @@
       }
     },
     {
+      "filename": "IMG_0297.JPG",
+      "filePath": "./images/phone-pictures/IMG_0297.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0297_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:11:17 08:37:41",
+        "ImageDescription": "11/17/2018"
+      }
+    },
+    {
+      "filename": "IMG_0005.JPG",
+      "filePath": "./images/phone-pictures/IMG_0005.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0005_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2017:02:25 14:13:34",
+        "ImageDescription": "02/25/2017"
+      }
+    },
+    {
       "filename": "20150203_084816.jpg",
       "filePath": "./images/phone-pictures/20150203_084816.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20150203_084816_small.jpg",
       "exif": {
         "DateTimeOriginal": "2015:02:03 08:48:15",
         "ImageDescription": "02/03/2015"
+      }
+    },
+    {
+      "filename": "IMG_0152.JPG",
+      "filePath": "./images/phone-pictures/IMG_0152.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0152_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:03:25 15:34:49",
+        "ImageDescription": "03/25/2018"
       }
     },
     {
@@ -583,6 +772,15 @@
       "exif": {
         "DateTimeOriginal": "2023:10:31 11:27:45",
         "ImageDescription": "10/31/2023"
+      }
+    },
+    {
+      "filename": "IMG_0296.JPG",
+      "filePath": "./images/phone-pictures/IMG_0296.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0296_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:11:10 15:30:40",
+        "ImageDescription": "11/10/2018"
       }
     },
     {
@@ -640,6 +838,15 @@
       }
     },
     {
+      "filename": "IMG_0161.JPG",
+      "filePath": "./images/phone-pictures/IMG_0161.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0161_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:04:08 13:48:52",
+        "ImageDescription": "04/08/2018"
+      }
+    },
+    {
       "filename": "20150727_191228.jpg",
       "filePath": "./images/phone-pictures/20150727_191228.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20150727_191228_small.jpg",
@@ -655,6 +862,15 @@
       "exif": {
         "DateTimeOriginal": "2021:09:05 14:59:31",
         "ImageDescription": "09/05/2021"
+      }
+    },
+    {
+      "filename": "IMG_0497.JPG",
+      "filePath": "./images/phone-pictures/IMG_0497.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0497_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:08:25 09:33:59",
+        "ImageDescription": "08/25/2019"
       }
     },
     {
@@ -676,6 +892,15 @@
       }
     },
     {
+      "filename": "IMG_0697.JPG",
+      "filePath": "./images/phone-pictures/IMG_0697.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0697_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:10:27 00:00:00",
+        "ImageDescription": "10/27/2018"
+      }
+    },
+    {
       "filename": "20140423_130144.jpg",
       "filePath": "./images/phone-pictures/20140423_130144.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20140423_130144_small.jpg",
@@ -694,6 +919,15 @@
       }
     },
     {
+      "filename": "IMG_0426.JPG",
+      "filePath": "./images/phone-pictures/IMG_0426.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0426_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:05:26 12:39:29",
+        "ImageDescription": "05/26/2019"
+      }
+    },
+    {
       "filename": "20140622_141459.jpg",
       "filePath": "./images/phone-pictures/20140622_141459.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20140622_141459_small.jpg",
@@ -709,6 +943,15 @@
       "exif": {
         "DateTimeOriginal": "2023:05:08 21:02:22",
         "ImageDescription": "05/08/2023"
+      }
+    },
+    {
+      "filename": "IMG_0145.JPG",
+      "filePath": "./images/phone-pictures/IMG_0145.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0145_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:03:18 16:09:36",
+        "ImageDescription": "03/18/2018"
       }
     },
     {
@@ -754,6 +997,33 @@
       "exif": {
         "DateTimeOriginal": "2021:08:26 17:01:44",
         "ImageDescription": "08/26/2021"
+      }
+    },
+    {
+      "filename": "IMG_0157.JPG",
+      "filePath": "./images/phone-pictures/IMG_0157.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0157_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:03:31 15:28:13",
+        "ImageDescription": "03/31/2018"
+      }
+    },
+    {
+      "filename": "IMG_0151.JPG",
+      "filePath": "./images/phone-pictures/IMG_0151.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0151_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:03:25 15:13:35",
+        "ImageDescription": "03/25/2018"
+      }
+    },
+    {
+      "filename": "IMG_0064.JPG",
+      "filePath": "./images/phone-pictures/IMG_0064.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0064_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2017:09:11 16:11:39",
+        "ImageDescription": "09/11/2017"
       }
     },
     {
@@ -829,6 +1099,24 @@
       }
     },
     {
+      "filename": "IMG_0445.JPG",
+      "filePath": "./images/phone-pictures/IMG_0445.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0445_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:06:23 14:47:43",
+        "ImageDescription": "06/23/2019"
+      }
+    },
+    {
+      "filename": "IMG_0181.JPG",
+      "filePath": "./images/phone-pictures/IMG_0181.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0181_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:06:18 15:51:49",
+        "ImageDescription": "06/18/2018"
+      }
+    },
+    {
       "filename": "20210914_113454.jpg",
       "filePath": "./images/phone-pictures/20210914_113454.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20210914_113454_small.jpg",
@@ -892,6 +1180,24 @@
       }
     },
     {
+      "filename": "IMG_0438.JPG",
+      "filePath": "./images/phone-pictures/IMG_0438.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0438_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:06:10 12:57:56",
+        "ImageDescription": "06/10/2019"
+      }
+    },
+    {
+      "filename": "20140208_200320.jpg",
+      "filePath": "./images/phone-pictures/20140208_200320.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140208_200320_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:02:08 20:03:19",
+        "ImageDescription": "02/08/2014"
+      }
+    },
+    {
       "filename": "20140927_202622.jpg",
       "filePath": "./images/phone-pictures/20140927_202622.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20140927_202622_small.jpg",
@@ -916,6 +1222,15 @@
       "exif": {
         "DateTimeOriginal": "2021:07:10 13:06:24",
         "ImageDescription": "07/10/2021"
+      }
+    },
+    {
+      "filename": "IMG_0160.JPG",
+      "filePath": "./images/phone-pictures/IMG_0160.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0160_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:04:25 00:00:00",
+        "ImageDescription": "4/25/2018"
       }
     },
     {
@@ -964,12 +1279,48 @@
       }
     },
     {
+      "filename": "IMG_0311.JPG",
+      "filePath": "./images/phone-pictures/IMG_0311.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0311_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:12:09 10:35:55",
+        "ImageDescription": "12/09/2018"
+      }
+    },
+    {
+      "filename": "IMG_0354.JPG",
+      "filePath": "./images/phone-pictures/IMG_0354.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0354_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:01:24 21:44:20",
+        "ImageDescription": "01/24/2019"
+      }
+    },
+    {
+      "filename": "IMG_0447.JPG",
+      "filePath": "./images/phone-pictures/IMG_0447.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0447_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:06:24 20:05:15",
+        "ImageDescription": "06/24/2019"
+      }
+    },
+    {
       "filename": "20140720_212129.jpg",
       "filePath": "./images/phone-pictures/20140720_212129.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20140720_212129_small.jpg",
       "exif": {
         "DateTimeOriginal": "2014:07:20 21:21:28",
         "ImageDescription": "07/20/2014"
+      }
+    },
+    {
+      "filename": "IMG_0401.JPG",
+      "filePath": "./images/phone-pictures/IMG_0401.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0401_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:04:22 10:44:51",
+        "ImageDescription": "04/22/2019"
       }
     },
     {
@@ -991,12 +1342,48 @@
       }
     },
     {
+      "filename": "IMG_0456.JPG",
+      "filePath": "./images/phone-pictures/IMG_0456.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0456_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:07:01 18:18:59",
+        "ImageDescription": "07/01/2019"
+      }
+    },
+    {
       "filename": "20181018_152616.jpg",
       "filePath": "./images/phone-pictures/20181018_152616.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20181018_152616_small.jpg",
       "exif": {
         "DateTimeOriginal": "2018:10:18 15:26:16",
         "ImageDescription": "10/18/2018"
+      }
+    },
+    {
+      "filename": "IMG_0139.JPG",
+      "filePath": "./images/phone-pictures/IMG_0139.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0139_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:03:05 20:13:31",
+        "ImageDescription": "03/05/2018"
+      }
+    },
+    {
+      "filename": "IMG_0424.JPG",
+      "filePath": "./images/phone-pictures/IMG_0424.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0424_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:05:25 16:27:29",
+        "ImageDescription": "05/25/2019"
+      }
+    },
+    {
+      "filename": "IMG_0334.JPG",
+      "filePath": "./images/phone-pictures/IMG_0334.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0334_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:12:30 22:19:27",
+        "ImageDescription": "12/30/2018"
       }
     },
     {
@@ -1036,6 +1423,15 @@
       }
     },
     {
+      "filename": "IMG_0392.JPG",
+      "filePath": "./images/phone-pictures/IMG_0392.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0392_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:03:26 09:44:38",
+        "ImageDescription": "03/26/2019"
+      }
+    },
+    {
       "filename": "20150517_152623.jpg",
       "filePath": "./images/phone-pictures/20150517_152623.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20150517_152623_small.jpg",
@@ -1045,12 +1441,48 @@
       }
     },
     {
+      "filename": "IMG_0154.JPG",
+      "filePath": "./images/phone-pictures/IMG_0154.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0154_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:03:25 18:31:54",
+        "ImageDescription": "03/25/2018"
+      }
+    },
+    {
       "filename": "20220501_151052.jpg",
       "filePath": "./images/phone-pictures/20220501_151052.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20220501_151052_small.jpg",
       "exif": {
         "DateTimeOriginal": "2022:05:01 15:10:52",
         "ImageDescription": "05/01/2022"
+      }
+    },
+    {
+      "filename": "IMG_0228.JPG",
+      "filePath": "./images/phone-pictures/IMG_0228.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0228_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:09:06 20:43:47",
+        "ImageDescription": "09/06/2018"
+      }
+    },
+    {
+      "filename": "IMG_0103.JPG",
+      "filePath": "./images/phone-pictures/IMG_0103.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0103_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2017:11:05 13:48:42",
+        "ImageDescription": "11/05/2017"
+      }
+    },
+    {
+      "filename": "IMG_0384.JPG",
+      "filePath": "./images/phone-pictures/IMG_0384.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0384_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:03:09 21:00:35",
+        "ImageDescription": "03/09/2019"
       }
     },
     {
@@ -1087,6 +1519,15 @@
       "exif": {
         "DateTimeOriginal": "2021:12:08 21:52:25",
         "ImageDescription": "12/08/2021"
+      }
+    },
+    {
+      "filename": "IMG_0420.JPG",
+      "filePath": "./images/phone-pictures/IMG_0420.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0420_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:05:18 10:05:36",
+        "ImageDescription": "05/18/2019"
       }
     },
     {
@@ -1189,6 +1630,15 @@
       }
     },
     {
+      "filename": "IMG_0214.JPG",
+      "filePath": "./images/phone-pictures/IMG_0214.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0214_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:08:16 07:43:14",
+        "ImageDescription": "08/16/2018"
+      }
+    },
+    {
       "filename": "20220130_163304.jpg",
       "filePath": "./images/phone-pictures/20220130_163304.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20220130_163304_small.jpg",
@@ -1270,6 +1720,15 @@
       }
     },
     {
+      "filename": "IMG_0363.JPG",
+      "filePath": "./images/phone-pictures/IMG_0363.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0363_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:01:30 21:33:01",
+        "ImageDescription": "01/30/2019"
+      }
+    },
+    {
       "filename": "20140221_205050.jpg",
       "filePath": "./images/phone-pictures/20140221_205050.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20140221_205050_small.jpg",
@@ -1342,6 +1801,15 @@
       }
     },
     {
+      "filename": "IMG_0279.JPG",
+      "filePath": "./images/phone-pictures/IMG_0279.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0279_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:10:28 10:53:28",
+        "ImageDescription": "10/28/2018"
+      }
+    },
+    {
       "filename": "IMG_20170106_211154_621.jpg",
       "filePath": "./images/phone-pictures/IMG_20170106_211154_621.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/IMG_20170106_211154_621_small.jpg",
@@ -1369,12 +1837,39 @@
       }
     },
     {
+      "filename": "IMG_0164.JPG",
+      "filePath": "./images/phone-pictures/IMG_0164.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0164_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:04:19 18:16:24",
+        "ImageDescription": "04/19/2018"
+      }
+    },
+    {
       "filename": "20140216_095649.jpg",
       "filePath": "./images/phone-pictures/20140216_095649.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20140216_095649_small.jpg",
       "exif": {
         "DateTimeOriginal": "2014:02:16 09:56:49",
         "ImageDescription": "02/16/2014"
+      }
+    },
+    {
+      "filename": "IMG_0275.JPG",
+      "filePath": "./images/phone-pictures/IMG_0275.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0275_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:10:27 21:13:26",
+        "ImageDescription": "10/27/2018"
+      }
+    },
+    {
+      "filename": "IMG_0470.JPG",
+      "filePath": "./images/phone-pictures/IMG_0470.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0470_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:07:10 20:52:03",
+        "ImageDescription": "07/10/2019"
       }
     },
     {
@@ -1405,6 +1900,15 @@
       }
     },
     {
+      "filename": "20140206_150419.jpg",
+      "filePath": "./images/phone-pictures/20140206_150419.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140206_150419_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:02:06 15:04:19",
+        "ImageDescription": "02/06/2014"
+      }
+    },
+    {
       "filename": "20140918_200343.jpg",
       "filePath": "./images/phone-pictures/20140918_200343.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20140918_200343_small.jpg",
@@ -1414,12 +1918,57 @@
       }
     },
     {
+      "filename": "IMG_0446.JPG",
+      "filePath": "./images/phone-pictures/IMG_0446.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0446_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:06:23 21:02:50",
+        "ImageDescription": "06/23/2019"
+      }
+    },
+    {
+      "filename": "IMG_0156.JPG",
+      "filePath": "./images/phone-pictures/IMG_0156.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0156_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:03:30 22:27:26",
+        "ImageDescription": "03/30/2018"
+      }
+    },
+    {
+      "filename": "IMG_0335.JPG",
+      "filePath": "./images/phone-pictures/IMG_0335.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0335_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:01:10 20:23:57",
+        "ImageDescription": "01/10/2019"
+      }
+    },
+    {
+      "filename": "20140208_195740.jpg",
+      "filePath": "./images/phone-pictures/20140208_195740.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140208_195740_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:02:08 19:57:39",
+        "ImageDescription": "02/08/2014"
+      }
+    },
+    {
       "filename": "20160117_122732.jpg",
       "filePath": "./images/phone-pictures/20160117_122732.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20160117_122732_small.jpg",
       "exif": {
         "DateTimeOriginal": "2016:01:17 12:27:32",
         "ImageDescription": "01/17/2016"
+      }
+    },
+    {
+      "filename": "IMG_0185.JPG",
+      "filePath": "./images/phone-pictures/IMG_0185.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0185_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:06:24 15:53:22",
+        "ImageDescription": "06/24/2018"
       }
     },
     {
@@ -1486,12 +2035,48 @@
       }
     },
     {
+      "filename": "IMG_0155.JPG",
+      "filePath": "./images/phone-pictures/IMG_0155.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0155_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:03:25 20:35:01",
+        "ImageDescription": "03/25/2018"
+      }
+    },
+    {
+      "filename": "IMG_0159.JPG",
+      "filePath": "./images/phone-pictures/IMG_0159.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0159_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2018:04:01 18:40:48",
+        "ImageDescription": "04/01/2018"
+      }
+    },
+    {
       "filename": "20140518_202354.jpg",
       "filePath": "./images/phone-pictures/20140518_202354.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20140518_202354_small.jpg",
       "exif": {
         "DateTimeOriginal": "2014:05:18 20:23:53",
         "ImageDescription": "05/18/2014"
+      }
+    },
+    {
+      "filename": "IMG_0008.JPG",
+      "filePath": "./images/phone-pictures/IMG_0008.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0008_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2017:03:18 14:49:17",
+        "ImageDescription": "03/18/2017"
+      }
+    },
+    {
+      "filename": "IMG_0444.JPG",
+      "filePath": "./images/phone-pictures/IMG_0444.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0444_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2019:06:22 20:48:54",
+        "ImageDescription": "06/22/2019"
       }
     },
     {
@@ -1528,6 +2113,15 @@
       "exif": {
         "DateTimeOriginal": "2023:11:20 20:57:04",
         "ImageDescription": "11/20/2023"
+      }
+    },
+    {
+      "filename": "IMG_0101.JPG",
+      "filePath": "./images/phone-pictures/IMG_0101.JPG",
+      "thumbnail": "./images/phone-pictures/.thumbnails/IMG_0101_small.JPG",
+      "exif": {
+        "DateTimeOriginal": "2017:11:04 09:12:43",
+        "ImageDescription": "11/04/2017"
       }
     },
     {
