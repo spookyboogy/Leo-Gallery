@@ -5,3 +5,4 @@ gpt_context.txt
 _site
 images/tree.txt
 directory_resizer.py
+duplicate_checker.py
