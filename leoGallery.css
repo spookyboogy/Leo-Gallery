@@ -38,7 +38,6 @@ body {
 
 #description-button {
     flex: 0 1 10%; /* flex-grow: 0; flex-shrink: 0; flex-basis: 10%; */
-    float: left;
     position: relative
 }
 
@@ -49,12 +48,21 @@ body {
     top: 50%;  
     /* top: calc(100% - 50px); */
     left: 50%; 
-    width: 80%;
+    width: 50%;
     transform: translate(-50%, -50%); 
     display: none; /* Initially hide the description box */
     position: fixed; /* Position it relative to the viewport */
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
+    text-align: center;
+    /* font-size: 20px; */
+    font-size: 1.5rem;
+    /* font-style: oblique; */
+    font-family: Arial, sans-serif; 
+    box-shadow: 0px 0px 100px 5px rgba(43, 230, 158, 0.452); /* Example box shadow */
+    line-height: 1.5; /* Example line height */
+    overflow: auto; /* Handle overflow content */
+    /* transition: opacity 0.3s ease; */
 }
 
 .tabcontent {
@@ -86,7 +94,6 @@ body {
   }
   
 .tab:hover {
-    
     background-color: #777;
     opacity: 0.875;
 }
@@ -105,7 +112,7 @@ body {
 }
 
 #oneko {
-    z-index: 100;
+    z-index: 1000;
 }
 
 /* .justified-gallery {
