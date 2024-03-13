@@ -1,5 +1,6 @@
 body {
     background-color: #1a1b1a;
+    position: relative
     /* padding: 40px; */
 }
 
@@ -35,6 +36,27 @@ body {
     opacity : 0.8;
 }
 
+#description-button {
+    flex: 0 1 10%; /* flex-grow: 0; flex-shrink: 0; flex-basis: 10%; */
+    float: left;
+    position: relative
+}
+
+#description-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    z-index: 500;
+    top: 50%;  
+    /* top: calc(100% - 50px); */
+    left: 50%; 
+    width: 80%;
+    transform: translate(-50%, -50%); 
+    display: none; /* Initially hide the description box */
+    position: fixed; /* Position it relative to the viewport */
+    padding: 10px;
+    border-radius: 10px;
+}
+
 .tabcontent {
     /* display: none; */
     /* padding: 100px 20px; */
@@ -64,6 +86,7 @@ body {
   }
   
 .tab:hover {
+    
     background-color: #777;
     opacity: 0.875;
 }

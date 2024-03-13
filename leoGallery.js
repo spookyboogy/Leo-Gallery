@@ -145,13 +145,30 @@ function createGalleryDiv(imageDirectory, isVisible = false){
   return $galleryDiv;
 }
 
+function addDescriptionContent() {
+  $('#description-box').html(`
+      <p>
+      This site is dedicated to a very special and very brave Bengal Leo. \
+      It is a collage of pictures showing the course of his life with his \
+      2 legged and 4 legged friends from being a 14 week old kitten to his \
+      passing on Jan 9th 2024. He brought joy and love into everyone he touched. \
+      I hope you enjoy this picture journey.\
+      </p>
+  `);
+}
+
+
 // Wait for the document to be ready, initialize LightGallery and JustifiedGallery
 function initializeGallery() {
   // console.log('DOM is ready');
   
+  addDescriptionContent();
+  $('#description-button').on('click', function() {
+    $('#description-box').toggle();
+  });
 
   const $galleryContainer = $('#gallery-container');
-  
+
   let defaultAlbum = "purple-and-pink-albums";
   defaultAlbum = defaultAlbum in images ? defaultAlbum : Object.keys(images)[0];
   
@@ -167,7 +184,10 @@ function initializeGallery() {
 
     if ( subdirectory === defaultAlbum ) {
       // set defaultAlbum as the first tab
-      $('#tab-bar').prepend($button);
+      // no longer using line below bc about-section button is assumed to exist in tab-bar already
+      // $('#tab-bar').prepend($button);
+      // $('#tab-bar').find('button').first().after($button);
+      $('#description-button').after($button);
       $galleryContainer.prepend($galleryDiv);
     } else {
       $('#tab-bar').append($button);
