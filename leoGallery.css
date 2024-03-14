@@ -50,15 +50,21 @@ body {
 }
 
 #description-box {
-    display: none; /* Initially hide the description box */
+    /* Initially hide the description box */
+    /* visibility: hidden; */
+    display: none;
+
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
     z-index: 500;
     top: 50%;  
     /* top: calc(100% - 50px); */
     left: 50%; 
-    max-width: 90%;
-    max-height: 80%;
+    /* max-width: 90%; */
+    /* max-height: 80%; */
+    max-width: 90vw; 
+    max-height: 80vh;
+    /* min-width: 70vw; */
     /* width: 50%; */
     transform: translate(-50%, -50%); 
     /* Position it relative to the viewport */
@@ -92,12 +98,7 @@ p {
     text-align: center;
 }
 
-@media (max-width: 768px) {
-    #description-box {
-        font-size: 1rem;
-        padding: 8px;
-    }
-}
+
 
 #links {
     /* flex: auto; */

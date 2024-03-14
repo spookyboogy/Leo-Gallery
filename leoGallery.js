@@ -164,11 +164,25 @@ function initializeGallery() {
   addDescriptionContent();
   $('#description-button').on('click', function() {
     $('#description-box').toggle();
+    // $('#description-box').css('visibility', 'visible');
   });
   
   $('#close-description').on('click', function() {
     $('#description-box').toggle();
+    // $('#description-box').css('visibility', 'visible');
   });
+
+//   $('#description-button, #close-description').on('click', function() {
+//     var $descriptionBox = $('#description-box');
+//     var isVisible = $descriptionBox.css('visibility') === 'visible';
+
+//     if (isVisible) {
+//         $descriptionBox.css('visibility', 'hidden');
+//     } else {
+//         $descriptionBox.css('visibility', 'visible');
+//     }
+// });
+
 
   $("#github").on('click', function() {
     window.open(githubUrl, "_blank");
