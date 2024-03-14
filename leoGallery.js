@@ -9,6 +9,7 @@ import '/node_modules/justifiedGallery/dist/js/jquery.justifiedGallery.min.js';
 // // this uses the es6 import assertions proposal which is supported by chrome but 
 // // not by Safari or on iOS devices in general
 
+var githubUrl = "https://github.com/spookyboogy/Leo-Gallery";
 var images = {};
 
 async function loadImages() {
@@ -146,25 +147,32 @@ function createGalleryDiv(imageDirectory, isVisible = false){
 }
 
 function addDescriptionContent() {
-  $('#description-box').html(`
-      <p>
-      This site is dedicated to a very special and very brave Bengal Leo. \
-      It is a collage of pictures showing the course of his life with his \
-      2 legged and 4 legged friends from being a 14 week old kitten to his \
-      passing on Jan 9th 2024. He brought joy and love into everyone he touched. \
+  $('#close-description').after(`
+      <p> 
+      This site is dedicated to a very special and very brave Bengal cat, Leo.\
+      It is a collage of pictures showing the course of his life with his\
+      two-legged and four-legged friends from being a 14-week-old kitten to his\
+      passing on January 9th, 2024. He brought joy and love to everyone he touched.\
       I hope you enjoy this picture journey.\
       </p>
   `);
 }
 
-
 // Wait for the document to be ready, initialize LightGallery and JustifiedGallery
 function initializeGallery() {
-  // console.log('DOM is ready');
+  // console.log('DOMis ready');
   
   addDescriptionContent();
   $('#description-button').on('click', function() {
     $('#description-box').toggle();
+  });
+  
+  $('#close-description').on('click', function() {
+    $('#description-box').toggle();
+  });
+
+  $("#github").on('click', function() {
+    window.open(githubUrl, "_blank");
   });
 
   const $galleryContainer = $('#gallery-container');
