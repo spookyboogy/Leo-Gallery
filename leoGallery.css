@@ -38,32 +38,112 @@ body {
 
 #description-button {
     flex: 0 1 10%; /* flex-grow: 0; flex-shrink: 0; flex-basis: 10%; */
-    position: relative
+    position: relative;
 }
 
+#description-button.tab {
+    background-color: rgba(43, 107, 77, 0.60);
+}
+
+#description-button.sticky {
+    background-color: none;
+}
+
+
 #description-box {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.75);
     color: white;
     z-index: 500;
     top: 50%;  
     /* top: calc(100% - 50px); */
     left: 50%; 
-    width: 50%;
+    /* width: 50%; */
     transform: translate(-50%, -50%); 
     display: none; /* Initially hide the description box */
     position: fixed; /* Position it relative to the viewport */
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
+    padding: 16px;
+    border-radius: 12px;
+    /* text-align: center; */
     /* font-size: 20px; */
     font-size: 1.5rem;
-    /* font-style: oblique; */
+    font-style: oblique;
     font-family: Arial, sans-serif; 
-    box-shadow: 0px 0px 100px 5px rgba(43, 230, 158, 0.452); /* Example box shadow */
+    /* box-shadow: 0px 0px 100px 5px rgba(43, 230, 158, 0.452);  */
+    box-shadow: 0px 0px 100px 5px rgba(216, 255, 240, 0.747); 
     line-height: 1.5; /* Example line height */
     overflow: auto; /* Handle overflow content */
     /* transition: opacity 0.3s ease; */
+    letter-spacing: 0.0025rem;  
 }
+
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    text-align: center;
+}
+
+
+#links {
+    /* flex: auto; */
+    float: right;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+#close-description {
+    float:right;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    /* padding-bottom: 10px; */
+    /* margin-bottom: 10px; */
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 4px 4px;
+    border-radius: 4px;
+    border: none;
+}
+
+#close-description:hover {
+    background-color: #777;
+    opacity: 0.875;
+    /* border-radius: 8px; */
+}
+
+
+#github {
+    /* font-size: 1rem; */
+    position: sticky;
+    background-color: rgba(26, 27, 26, 0.459);
+    /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); */
+    letter-spacing: 0.5px;  
+    color: #FFFFF0;
+    border-radius: 20px;
+    /* white-space: nowrap; */
+    border: none;
+    padding: 3px 3px; 
+    /* height: 50px; */
+    /* width: 1em; */
+    /* height: 1em; */
+
+}
+
+#github:hover {
+    /* background-color: #777; */
+    background-color: rgba(5, 81, 174, 0.6); 
+    opacity: 0.875;
+}
+
+.icon {
+    width: 32px; /* Set width of the icon */
+    height: auto; /* Set height of the icon */
+    vertical-align: middle; /* Align icon vertically in button */
+    /* margin-right: 5px; */
+  }
+
 
 .tabcontent {
     /* display: none; */
@@ -73,7 +153,7 @@ body {
 
 .tab {
     flex: 1;
-    background-color: rgba(26, 27, 26, 0.25);
+    background-color: rgba(26, 27, 26, 0.6);
     /* text-transform: uppercase;   */
     /* font-weight: bold; */
     font-family: Helvetica; 
@@ -104,10 +184,9 @@ body {
     font-size: 12px;
     opacity : 0.8;
     /* flex: 1; */
-    /* width: %; */
-    z-index: 99; /* Adjust as needed */
-    background-color: rgba(26, 27, 26, 0.5); /* Adjust the transparency as needed */
-    /* transition: all 0.3s ease; */
+    /* width: 50%; */
+    z-index: 99;
+    background-color: rgba(26, 27, 26, 0.5) !important; 
     /* Add any other styling you want for the sticky tab bar */
 }
 
