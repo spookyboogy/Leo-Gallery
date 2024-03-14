@@ -258,7 +258,6 @@ function initializeGallery() {
 $(loadImages);
 $(document).on('imagesLoaded', initializeGallery);
 
-
 // $(initializeGallery); // made redundant by loadImages
 
 // Chrome gives the following warning
