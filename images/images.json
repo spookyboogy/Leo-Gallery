@@ -991,6 +991,15 @@
       }
     },
     {
+      "filename": "20140719_141259.jpg",
+      "filePath": "./images/phone-pictures/20140719_141259.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140719_141259_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:07:19 14:12:58",
+        "ImageDescription": "07/19/2014"
+      }
+    },
+    {
       "filename": "20210826_170144.jpg",
       "filePath": "./images/phone-pictures/20210826_170144.jpg",
       "thumbnail": "./images/phone-pictures/.thumbnails/20210826_170144_small.jpg",
@@ -1627,6 +1636,15 @@
       "exif": {
         "DateTimeOriginal": "2021:08:23 12:32:16",
         "ImageDescription": "08/23/2021"
+      }
+    },
+    {
+      "filename": "20140718_175953.jpg",
+      "filePath": "./images/phone-pictures/20140718_175953.jpg",
+      "thumbnail": "./images/phone-pictures/.thumbnails/20140718_175953_small.jpg",
+      "exif": {
+        "DateTimeOriginal": "2014:07:18 17:59:53",
+        "ImageDescription": "07/18/2014"
       }
     },
     {
