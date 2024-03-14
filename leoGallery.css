@@ -53,7 +53,6 @@ body {
     /* Initially hide the description box */
     /* visibility: hidden; */
     display: none;
-
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
     z-index: 500;
@@ -64,8 +63,11 @@ body {
     /* max-height: 80%; */
     max-width: 90vw; 
     max-height: 80vh;
-    /* min-width: 70vw; */
-    /* width: 50%; */
+    /* min-width: 70vw;
+    min-height: 80vw;; */
+    width: auto;
+    height:auto;
+
     transform: translate(-50%, -50%); 
     /* Position it relative to the viewport */
     position: fixed; 
@@ -77,7 +79,7 @@ body {
     font-style: oblique;
     font-family: Arial, sans-serif; 
     /* box-shadow: 0px 0px 100px 5px rgba(43, 230, 158, 0.452);  */
-    box-shadow: 0px 0px 100px 5px rgba(216, 255, 240, 0.747); 
+    box-shadow: 0px 0px 50px 5px rgba(216, 255, 240, 0.747); 
     line-height: 1.5; /* Example line height */
     overflow: auto; /* Handle overflow content */
     /* transition: opacity 0.3s ease; */
@@ -88,6 +90,10 @@ body {
     #description-box {
         font-size: 1rem;
         padding: 8px;
+        box-shadow: 0px 0px 25px 5px rgba(216, 255, 240, 0.747); 
+        /* min-height: 80vw;; */
+        line-height: 1.25; /* Example line height */
+
     }
 }
 
