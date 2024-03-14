@@ -160,7 +160,6 @@ function addDescriptionContent() {
 
 // Wait for the document to be ready, initialize LightGallery and JustifiedGallery
 function initializeGallery() {
-  // console.log('DOMis ready');
   
   addDescriptionContent();
   $('#description-button').on('click', function() {
