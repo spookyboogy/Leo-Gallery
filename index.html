@@ -15,17 +15,24 @@
 <body>
     <div id="tab-bar">
         <button id="description-button" class="tab">About</button>
+        <!-- Gallery tab buttons will be dynamically added here  -->
     </div>
-    <!-- Tab buttons will be dynamically added here  -->
-    
+
     <div id="description-box" class="description-box">
-        <!-- description goes here  -->
+        <button id="close-description"> X </button>
+        <!-- description content here  -->
+        <div id="links"> 
+            <button id="github">
+                <img src="images/github-mark-light.png" class="icon" alt="github-icon">
+            </button> 
+        </div>
     </div>
     
     <div id="gallery-container">
         <!-- gallery divs dynamically added here -->
             <!-- gallery images are then added to div -->
     </div>
+    
     <!-- Include jQuery before loading lightGallery-->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="leoGallery.js" type="module"></script>
