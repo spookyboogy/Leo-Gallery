@@ -152,8 +152,8 @@ function addDescriptionContent() {
       This site is dedicated to a very special and very brave Bengal cat, Leo.\
       It is a collage of pictures showing the course of his life with his\
       two-legged and four-legged friends from being a 14-week-old kitten to his\
-      passing on January 9th, 2024. He brought joy and love to everyone he touched.\
-      I hope you enjoy this picture journey.\
+      passing when he was 16 years old, on January 9th, 2024. He brought joy and\
+      love to everyone he touched. I hope you enjoy this picture journey.\
       </p>
   `);
 }
