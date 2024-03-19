@@ -10,7 +10,6 @@ body {
     border-color: rgb(46, 47, 45);
 }
 
-/* set scrollbar colors to dark as well */
 ::-webkit-scrollbar {
     background-color: #1a1b1a;
     color: #bfb29c;
@@ -19,7 +18,7 @@ body {
     background-color: #9999999c;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #999999; /* Change color on hover if desired */
+    background-color: #999999;
 }
 ::-webkit-scrollbar-corner {
     background-color: #101110;
@@ -39,6 +38,7 @@ body {
 #description-button {
     flex: 0 1 10%; /* flex-grow: 0; flex-shrink: 0; flex-basis: 10%; */
     position: relative;
+
 }
 
 #description-button.tab {
@@ -50,14 +50,14 @@ body {
 }
 
 #description-box {
-    /* Initially hide the description box */
     /* visibility: hidden; */
+    /* Initially hide the description box */
     display: none;
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
     z-index: 500;
-    top: 50%;  
     /* top: calc(100% - 50px); */
+    top: 50%;  
     left: 50%; 
     /* max-width: 90%; */
     /* max-height: 80%; */
@@ -73,27 +73,24 @@ body {
     position: fixed; 
     padding: 16px;
     border-radius: 12px;
-    /* text-align: center; */
     /* font-size: 20px; */
     font-size: 1.5em;
-    font-style: oblique;
-    font-family: Arial, sans-serif; 
-    /* box-shadow: 0px 0px 100px 5px rgba(43, 230, 158, 0.452);  */
-    box-shadow: 0px 0px 50px 5px rgba(216, 255, 240, 0.747); 
-    line-height: 1.5; /* Example line height */
-    overflow: auto; /* Handle overflow content */
-    /* transition: opacity 0.3s ease; */
+
+    box-shadow: 0px 0px 100px 5px rgba(43, 230, 158, 0.452); 
+    /* box-shadow: 0px 0px 100px 5px rgba(69, 69, 70, 0.582);  */
+    /* box-shadow: 0px 0px 50px 5px rgba(216, 255, 240, 0.747);  */
+
+    line-height: 1.5;
+    overflow: auto;
     letter-spacing: 0.0025em;  
 }
 
 @media (max-width: 768px) {
     #description-box {
-        font-size: 1rem;
+        font-size: 1.25rem;
         padding: 8px;
-        box-shadow: 0px 0px 25px 5px rgba(216, 255, 240, 0.747); 
-        /* min-height: 80vw;; */
-        line-height: 1.25; /* Example line height */
-
+        /* min-height: 80vw; */
+        line-height: 1.25; 
     }
 }
 
@@ -102,12 +99,13 @@ p {
     margin-right: auto;
     width: 75%;
     text-align: center;
+    font-style: oblique;
+    font-family: Arial, sans-serif; 
 }
 
 #links {
     /* flex: auto; */
     float: right;
-    text-align: center;
     padding: 5px;
     border-radius: 10px;
 }
@@ -132,23 +130,16 @@ p {
 }
 
 #github {
-    /* font-size: 1rem; */
     position: sticky;
     background-color: rgba(26, 27, 26, 0.459);
     letter-spacing: 0.5px;  
     color: #FFFFF0;
     border-radius: 20px;
-    /* white-space: nowrap; */
     border: none;
     padding: 3px 3px; 
-    /* height: 50px; */
-    /* width: 1em; */
-    /* height: 1em; */
-
 }
 
 #github:hover {
-    /* background-color: #777; */
     background-color: rgba(5, 81, 174, 0.6); 
     opacity: 0.875;
 }
@@ -160,9 +151,7 @@ p {
     /* margin-right: 5px; */
   }
 
-
 .tabcontent {
-    /* display: none; */
     /* padding: 100px 20px; */
     height: 100%;
 }
@@ -202,8 +191,7 @@ p {
     /* flex: 1; */
     /* width: 50%; */
     z-index: 99;
-    background-color: rgba(26, 27, 26, 0.5) !important; 
-    /* Add any other styling you want for the sticky tab bar */
+    background-color: rgba(26, 27, 26, 0.5); 
 }
 
 #oneko {
