@@ -21,7 +21,6 @@ build-related or script related
 - [ ] Include the `directory_reiszer.py` script in build process
 - [ ] Include the `thumbnail_generator` script in build process
 
-
 neko-related
 - [x] add oneko.js
 - [ ] remake neko sprite file with other colors (orange is closest to leo)  
@@ -35,7 +34,6 @@ misc/styling-related
 - [ ] change button and window shadows to blue or use a different polished style
 - [ ] maybe use ⓘ or icon of ⓘ in "About" button 
 - [ ] implement lazy loading, figure out why loading gets interrupted
-
 
 non-site related
 - [ ] update usb backup with rotated/data photoscans with appropriate naming convention
