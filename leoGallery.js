@@ -110,10 +110,10 @@ function createTabButton(imageDirectory){
   // hacky way of re-labeling the tab buttons
   // without sacrificing generalizability 
   if ( imageDirectory === 'phone-pictures' ) {
-    _text = 'Digital Albums';
+    _text = 'Album 2';
     backgroundImagePath = './images/' + imageDirectory + '/preview.png';
   } else if ( imageDirectory === 'purple-and-pink-albums' ) {
-    _text = 'Photo Albums';
+    _text = 'Album 1';
     backgroundImagePath = './images/' + imageDirectory + '/preview.png';
   } else {
     _text = imageDirectory;
