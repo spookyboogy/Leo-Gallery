@@ -11,6 +11,7 @@ import '/node_modules/justifiedGallery/dist/js/jquery.justifiedGallery.min.js';
 
 var githubUrl = "https://github.com/spookyboogy/Leo-Gallery";
 var images = {};
+var scrollPositions = {};
 
 async function loadImages() {
   try {
@@ -26,8 +27,6 @@ async function loadImages() {
     // Handle the error appropriately
   }
 }
-
-var scrollPositions = {};
 
 function openGallery(galleryName){
 
