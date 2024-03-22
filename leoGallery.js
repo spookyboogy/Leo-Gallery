@@ -88,7 +88,9 @@ function createImageTag(image) {
     html: $('<img>', {
       src: image.thumbnail,
       alt: image.exif.ImageDescription,
-      loading: 'lazy' // Add lazy loading attribute
+      // // lazy loading seems to be exceptionally slow since the only time
+      // // a full image is displayed is when it's pulled up lightgallery 
+      // loading: 'lazy' 
     })
   });
   return $imageTag;
