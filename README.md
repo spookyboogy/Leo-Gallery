@@ -25,6 +25,8 @@ neko-related
 - [x] add oneko.js
 - [ ] remake neko sprite file with other colors (orange is closest to leo)  
 - [ ] add multiple instances of neko? 
+- [ ] add a user setting for selecting diffferent neko skins?
+- [ ] implement cookies for saving preferred neko? (not sure if possible with neocities)
 - [ ] adapt neko to respond to touchstart on mobile?
 
 misc/styling-related
@@ -34,7 +36,9 @@ misc/styling-related
 - [x] change button and window shadows to blue or use a different polished style
 - [x] maybe use ⓘ or icon of ⓘ in "About" button 
 - [ ] implement lazy loading, figure out why loading gets interrupted
+- [ ] figure out how to detect dark-mode-preffered of useragent to use dark version of github icon
 
+ 
 non-site related
 - [ ] update usb backup with rotated/data photoscans with appropriate naming convention
 
