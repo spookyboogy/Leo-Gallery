@@ -29,10 +29,10 @@ neko-related
 
 misc/styling-related
 - [ ] use non-pitch-black background color for galleries (final row too dark)
-- [ ] improve responsive mobile design wrt decsription-box sizing and text display 
-- [ ] switch album tab texts to " album 1 " " album 2 "
-- [ ] change button and window shadows to blue or use a different polished style
-- [ ] maybe use ⓘ or icon of ⓘ in "About" button 
+- [x] improve responsive mobile design wrt decsription-box sizing and text display 
+- [x] switch album tab texts to " album 1 " " album 2 "
+- [x] change button and window shadows to blue or use a different polished style
+- [x] maybe use ⓘ or icon of ⓘ in "About" button 
 - [ ] implement lazy loading, figure out why loading gets interrupted
 
 non-site related

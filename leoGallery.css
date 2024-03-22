@@ -33,21 +33,16 @@ body {
     background-color: rgba(26, 27, 26, 0.5); 
     border-radius: 10px;
     opacity : 0.8;
+    overflow: auto;
 }
 
 #description-button {
     flex: 0 1 10%; /* flex-grow: 0; flex-shrink: 0; flex-basis: 10%; */
     position: relative;
-
+    /* background-color: #007d; */
+    background-color: rgba(0, 0, 120, 0.7);
 }
 
-#description-button.tab {
-    background-color: rgba(43, 107, 77, 0.60);
-}
-
-#description-button.sticky {
-    background-color: none;
-}
 
 #description-box {
     /* visibility: hidden; */
@@ -74,8 +69,8 @@ body {
     /* font-size: 20px; */
     font-size: 1.5em;
 
-    box-shadow: 0px 0px 100px 5px rgba(43, 230, 158, 0.452); 
-    /* box-shadow: 0px 0px 100px 5px rgba(69, 69, 70, 0.582);  */
+    /* box-shadow: 0px 0px 100px 5px rgba(43, 230, 158, 0.452);  */
+    box-shadow: 0px 0px 100px 5px rgb(69, 69, 70); 
     /* box-shadow: 0px 0px 50px 5px rgba(216, 255, 240, 0.747);  */
 
     line-height: 1.5;
@@ -90,7 +85,7 @@ body {
         line-height: 1.25;
         min-width: 80vw; 
         max-width: 90vw; 
-        min-height: 80vw;
+        /* min-height: 80vw; */
         max-height: 90vh;
     }
 }
@@ -185,6 +180,7 @@ p {
 }
 
 .sticky {
+    /* margin: 0px 10px; */
     position: fixed;
     top: 0;
     font-size: 12px;
@@ -193,6 +189,16 @@ p {
     /* width: 50%; */
     z-index: 99;
     background-color: rgba(26, 27, 26, 0.5); 
+}
+
+.sticky #description-button {
+    background-color: inherit; /* Inherit background color from the .sticky class */
+    /* padding: 14px 16px; */
+}
+
+.sticky .tab {
+    /* margin: 10px; */
+    padding: 14px 30px;
 }
 
 #oneko {
