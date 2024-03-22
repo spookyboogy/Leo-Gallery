@@ -37,6 +37,7 @@ misc/styling-related
 - [x] maybe use ⓘ or icon of ⓘ in "About" button 
 - [ ] implement lazy loading, figure out why loading gets interrupted
 - [ ] figure out how to detect dark-mode-preffered of useragent to use dark version of github icon
+- [ ] improve description-box styling to reduce empty space below text, between github button
 
  
 non-site related
