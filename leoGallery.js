@@ -87,7 +87,8 @@ function createImageTag(image) {
     href: image.filePath,
     html: $('<img>', {
       src: image.thumbnail,
-      alt: image.exif.ImageDescription
+      alt: image.exif.ImageDescription,
+      loading: 'lazy' // Add lazy loading attribute
     })
   });
   return $imageTag;
