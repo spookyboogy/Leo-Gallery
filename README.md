@@ -38,6 +38,7 @@ misc/styling-related
 - [ ] implement lazy loading, figure out why loading gets interrupted
 - [ ] figure out how to detect dark-mode-preffered of useragent to use dark version of github icon
 - [ ] improve description-box styling to reduce empty space below text, between github button
+- [ ] add tooltips, particularly to github button, reading ("view this project on github")
 
  
 non-site related
